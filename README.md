@@ -18,7 +18,7 @@ Visualize Transfer Learning Datasets
 
 ## Environment file
 
-**note: experiment.yml is the full environment used in my graduation experiments. So, in this case, some dependencies are not necessary.**
+**Note: `experiment.yml` is the full environment used in my graduation experiments. So, in this case, some dependencies are unnecessary.**
 
 - install anaconda
 
@@ -28,4 +28,4 @@ Visualize Transfer Learning Datasets
 
 ## Dataset organization
 
-see folder_tree.txt
+see `folder_tree.txt` 
