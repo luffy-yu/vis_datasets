@@ -1,0 +1,3369 @@
+dataset
+│
+├─amazon_review
+│  └─amazon_review
+├─AWA
+├─COL20
+├─cross-dataset
+│  └─cross-dataset
+├─CUB-200
+├─decaf6
+├─DomainNet
+│  ├─clipart
+│  │  └─clipart
+│  │      ├─aircraft_carrier
+│  │      ├─airplane
+│  │      ├─alarm_clock
+│  │      ├─ambulance
+│  │      ├─angel
+│  │      ├─animal_migration
+│  │      ├─ant
+│  │      ├─anvil
+│  │      ├─apple
+│  │      ├─arm
+│  │      ├─asparagus
+│  │      ├─axe
+│  │      ├─backpack
+│  │      ├─banana
+│  │      ├─bandage
+│  │      ├─barn
+│  │      ├─baseball
+│  │      ├─baseball_bat
+│  │      ├─basket
+│  │      ├─basketball
+│  │      ├─bat
+│  │      ├─bathtub
+│  │      ├─beach
+│  │      ├─bear
+│  │      ├─beard
+│  │      ├─bed
+│  │      ├─bee
+│  │      ├─belt
+│  │      ├─bench
+│  │      ├─bicycle
+│  │      ├─binoculars
+│  │      ├─bird
+│  │      ├─birthday_cake
+│  │      ├─blackberry
+│  │      ├─blueberry
+│  │      ├─book
+│  │      ├─boomerang
+│  │      ├─bottlecap
+│  │      ├─bowtie
+│  │      ├─bracelet
+│  │      ├─brain
+│  │      ├─bread
+│  │      ├─bridge
+│  │      ├─broccoli
+│  │      ├─broom
+│  │      ├─bucket
+│  │      ├─bulldozer
+│  │      ├─bus
+│  │      ├─bush
+│  │      ├─butterfly
+│  │      ├─cactus
+│  │      ├─cake
+│  │      ├─calculator
+│  │      ├─calendar
+│  │      ├─camel
+│  │      ├─camera
+│  │      ├─camouflage
+│  │      ├─campfire
+│  │      ├─candle
+│  │      ├─cannon
+│  │      ├─canoe
+│  │      ├─car
+│  │      ├─carrot
+│  │      ├─castle
+│  │      ├─cat
+│  │      ├─ceiling_fan
+│  │      ├─cello
+│  │      ├─cell_phone
+│  │      ├─chair
+│  │      ├─chandelier
+│  │      ├─church
+│  │      ├─circle
+│  │      ├─clarinet
+│  │      ├─clock
+│  │      ├─cloud
+│  │      ├─coffee_cup
+│  │      ├─compass
+│  │      ├─computer
+│  │      ├─cookie
+│  │      ├─cooler
+│  │      ├─couch
+│  │      ├─cow
+│  │      ├─crab
+│  │      ├─crayon
+│  │      ├─crocodile
+│  │      ├─crown
+│  │      ├─cruise_ship
+│  │      ├─cup
+│  │      ├─diamond
+│  │      ├─dishwasher
+│  │      ├─diving_board
+│  │      ├─dog
+│  │      ├─dolphin
+│  │      ├─donut
+│  │      ├─door
+│  │      ├─dragon
+│  │      ├─dresser
+│  │      ├─drill
+│  │      ├─drums
+│  │      ├─duck
+│  │      ├─dumbbell
+│  │      ├─ear
+│  │      ├─elbow
+│  │      ├─elephant
+│  │      ├─envelope
+│  │      ├─eraser
+│  │      ├─eye
+│  │      ├─eyeglasses
+│  │      ├─face
+│  │      ├─fan
+│  │      ├─feather
+│  │      ├─fence
+│  │      ├─finger
+│  │      ├─fireplace
+│  │      ├─firetruck
+│  │      ├─fire_hydrant
+│  │      ├─fish
+│  │      ├─flamingo
+│  │      ├─flashlight
+│  │      ├─flip_flops
+│  │      ├─floor_lamp
+│  │      ├─flower
+│  │      ├─flying_saucer
+│  │      ├─foot
+│  │      ├─fork
+│  │      ├─frog
+│  │      ├─frying_pan
+│  │      ├─garden
+│  │      ├─garden_hose
+│  │      ├─giraffe
+│  │      ├─goatee
+│  │      ├─golf_club
+│  │      ├─grapes
+│  │      ├─grass
+│  │      ├─guitar
+│  │      ├─hamburger
+│  │      ├─hammer
+│  │      ├─hand
+│  │      ├─harp
+│  │      ├─hat
+│  │      ├─headphones
+│  │      ├─hedgehog
+│  │      ├─helicopter
+│  │      ├─helmet
+│  │      ├─hexagon
+│  │      ├─hockey_puck
+│  │      ├─hockey_stick
+│  │      ├─horse
+│  │      ├─hospital
+│  │      ├─hot_air_balloon
+│  │      ├─hot_dog
+│  │      ├─hot_tub
+│  │      ├─hourglass
+│  │      ├─house
+│  │      ├─house_plant
+│  │      ├─hurricane
+│  │      ├─ice_cream
+│  │      ├─jacket
+│  │      ├─jail
+│  │      ├─kangaroo
+│  │      ├─key
+│  │      ├─keyboard
+│  │      ├─knee
+│  │      ├─knife
+│  │      ├─ladder
+│  │      ├─lantern
+│  │      ├─laptop
+│  │      ├─leaf
+│  │      ├─leg
+│  │      ├─lighter
+│  │      ├─lighthouse
+│  │      ├─lightning
+│  │      ├─light_bulb
+│  │      ├─line
+│  │      ├─lion
+│  │      ├─lipstick
+│  │      ├─lobster
+│  │      ├─lollipop
+│  │      ├─mailbox
+│  │      ├─map
+│  │      ├─marker
+│  │      ├─matches
+│  │      ├─megaphone
+│  │      ├─mermaid
+│  │      ├─microphone
+│  │      ├─microwave
+│  │      ├─monkey
+│  │      ├─moon
+│  │      ├─mosquito
+│  │      ├─motorbike
+│  │      ├─mountain
+│  │      ├─mouse
+│  │      ├─moustache
+│  │      ├─mouth
+│  │      ├─mug
+│  │      ├─mushroom
+│  │      ├─nail
+│  │      ├─necklace
+│  │      ├─nose
+│  │      ├─ocean
+│  │      ├─octagon
+│  │      ├─octopus
+│  │      ├─onion
+│  │      ├─oven
+│  │      ├─owl
+│  │      ├─paintbrush
+│  │      ├─paint_can
+│  │      ├─palm_tree
+│  │      ├─panda
+│  │      ├─pants
+│  │      ├─paper_clip
+│  │      ├─parachute
+│  │      ├─parrot
+│  │      ├─passport
+│  │      ├─peanut
+│  │      ├─pear
+│  │      ├─peas
+│  │      ├─pencil
+│  │      ├─penguin
+│  │      ├─piano
+│  │      ├─pickup_truck
+│  │      ├─picture_frame
+│  │      ├─pig
+│  │      ├─pillow
+│  │      ├─pineapple
+│  │      ├─pizza
+│  │      ├─pliers
+│  │      ├─police_car
+│  │      ├─pond
+│  │      ├─pool
+│  │      ├─popsicle
+│  │      ├─postcard
+│  │      ├─potato
+│  │      ├─power_outlet
+│  │      ├─purse
+│  │      ├─rabbit
+│  │      ├─raccoon
+│  │      ├─radio
+│  │      ├─rain
+│  │      ├─rainbow
+│  │      ├─rake
+│  │      ├─remote_control
+│  │      ├─rhinoceros
+│  │      ├─rifle
+│  │      ├─river
+│  │      ├─rollerskates
+│  │      ├─roller_coaster
+│  │      ├─sailboat
+│  │      ├─sandwich
+│  │      ├─saw
+│  │      ├─saxophone
+│  │      ├─school_bus
+│  │      ├─scissors
+│  │      ├─scorpion
+│  │      ├─screwdriver
+│  │      ├─sea_turtle
+│  │      ├─see_saw
+│  │      ├─shark
+│  │      ├─sheep
+│  │      ├─shoe
+│  │      ├─shorts
+│  │      ├─shovel
+│  │      ├─sink
+│  │      ├─skateboard
+│  │      ├─skull
+│  │      ├─skyscraper
+│  │      ├─sleeping_bag
+│  │      ├─smiley_face
+│  │      ├─snail
+│  │      ├─snake
+│  │      ├─snorkel
+│  │      ├─snowflake
+│  │      ├─snowman
+│  │      ├─soccer_ball
+│  │      ├─sock
+│  │      ├─speedboat
+│  │      ├─spider
+│  │      ├─spoon
+│  │      ├─spreadsheet
+│  │      ├─square
+│  │      ├─squiggle
+│  │      ├─squirrel
+│  │      ├─stairs
+│  │      ├─star
+│  │      ├─steak
+│  │      ├─stereo
+│  │      ├─stethoscope
+│  │      ├─stitches
+│  │      ├─stop_sign
+│  │      ├─stove
+│  │      ├─strawberry
+│  │      ├─streetlight
+│  │      ├─string_bean
+│  │      ├─submarine
+│  │      ├─suitcase
+│  │      ├─sun
+│  │      ├─swan
+│  │      ├─sweater
+│  │      ├─swing_set
+│  │      ├─sword
+│  │      ├─syringe
+│  │      ├─t-shirt
+│  │      ├─table
+│  │      ├─teapot
+│  │      ├─teddy-bear
+│  │      ├─telephone
+│  │      ├─television
+│  │      ├─tennis_racquet
+│  │      ├─tent
+│  │      ├─The_Eiffel_Tower
+│  │      ├─The_Great_Wall_of_China
+│  │      ├─The_Mona_Lisa
+│  │      ├─tiger
+│  │      ├─toaster
+│  │      ├─toe
+│  │      ├─toilet
+│  │      ├─tooth
+│  │      ├─toothbrush
+│  │      ├─toothpaste
+│  │      ├─tornado
+│  │      ├─tractor
+│  │      ├─traffic_light
+│  │      ├─train
+│  │      ├─tree
+│  │      ├─triangle
+│  │      ├─trombone
+│  │      ├─truck
+│  │      ├─trumpet
+│  │      ├─umbrella
+│  │      ├─underwear
+│  │      ├─van
+│  │      ├─vase
+│  │      ├─violin
+│  │      ├─washing_machine
+│  │      ├─watermelon
+│  │      ├─waterslide
+│  │      ├─whale
+│  │      ├─wheel
+│  │      ├─windmill
+│  │      ├─wine_bottle
+│  │      ├─wine_glass
+│  │      ├─wristwatch
+│  │      ├─yoga
+│  │      ├─zebra
+│  │      └─zigzag
+│  ├─infograph
+│  │  └─infograph
+│  │      ├─aircraft_carrier
+│  │      ├─airplane
+│  │      ├─alarm_clock
+│  │      ├─ambulance
+│  │      ├─angel
+│  │      ├─animal_migration
+│  │      ├─ant
+│  │      ├─anvil
+│  │      ├─apple
+│  │      ├─arm
+│  │      ├─asparagus
+│  │      ├─axe
+│  │      ├─backpack
+│  │      ├─banana
+│  │      ├─bandage
+│  │      ├─barn
+│  │      ├─baseball
+│  │      ├─baseball_bat
+│  │      ├─basket
+│  │      ├─basketball
+│  │      ├─bat
+│  │      ├─bathtub
+│  │      ├─beach
+│  │      ├─bear
+│  │      ├─beard
+│  │      ├─bed
+│  │      ├─bee
+│  │      ├─belt
+│  │      ├─bench
+│  │      ├─bicycle
+│  │      ├─binoculars
+│  │      ├─bird
+│  │      ├─birthday_cake
+│  │      ├─blackberry
+│  │      ├─blueberry
+│  │      ├─book
+│  │      ├─boomerang
+│  │      ├─bottlecap
+│  │      ├─bowtie
+│  │      ├─bracelet
+│  │      ├─brain
+│  │      ├─bread
+│  │      ├─bridge
+│  │      ├─broccoli
+│  │      ├─broom
+│  │      ├─bucket
+│  │      ├─bulldozer
+│  │      ├─bus
+│  │      ├─bush
+│  │      ├─butterfly
+│  │      ├─cactus
+│  │      ├─cake
+│  │      ├─calculator
+│  │      ├─calendar
+│  │      ├─camel
+│  │      ├─camera
+│  │      ├─camouflage
+│  │      ├─campfire
+│  │      ├─candle
+│  │      ├─cannon
+│  │      ├─canoe
+│  │      ├─car
+│  │      ├─carrot
+│  │      ├─castle
+│  │      ├─cat
+│  │      ├─ceiling_fan
+│  │      ├─cello
+│  │      ├─cell_phone
+│  │      ├─chair
+│  │      ├─chandelier
+│  │      ├─church
+│  │      ├─circle
+│  │      ├─clarinet
+│  │      ├─clock
+│  │      ├─cloud
+│  │      ├─coffee_cup
+│  │      ├─compass
+│  │      ├─computer
+│  │      ├─cookie
+│  │      ├─cooler
+│  │      ├─couch
+│  │      ├─cow
+│  │      ├─crab
+│  │      ├─crayon
+│  │      ├─crocodile
+│  │      ├─crown
+│  │      ├─cruise_ship
+│  │      ├─cup
+│  │      ├─diamond
+│  │      ├─dishwasher
+│  │      ├─diving_board
+│  │      ├─dog
+│  │      ├─dolphin
+│  │      ├─donut
+│  │      ├─door
+│  │      ├─dragon
+│  │      ├─dresser
+│  │      ├─drill
+│  │      ├─drums
+│  │      ├─duck
+│  │      ├─dumbbell
+│  │      ├─ear
+│  │      ├─elbow
+│  │      ├─elephant
+│  │      ├─envelope
+│  │      ├─eraser
+│  │      ├─eye
+│  │      ├─eyeglasses
+│  │      ├─face
+│  │      ├─fan
+│  │      ├─feather
+│  │      ├─fence
+│  │      ├─finger
+│  │      ├─fireplace
+│  │      ├─firetruck
+│  │      ├─fire_hydrant
+│  │      ├─fish
+│  │      ├─flamingo
+│  │      ├─flashlight
+│  │      ├─flip_flops
+│  │      ├─floor_lamp
+│  │      ├─flower
+│  │      ├─flying_saucer
+│  │      ├─foot
+│  │      ├─fork
+│  │      ├─frog
+│  │      ├─frying_pan
+│  │      ├─garden
+│  │      ├─garden_hose
+│  │      ├─giraffe
+│  │      ├─goatee
+│  │      ├─golf_club
+│  │      ├─grapes
+│  │      ├─grass
+│  │      ├─guitar
+│  │      ├─hamburger
+│  │      ├─hammer
+│  │      ├─hand
+│  │      ├─harp
+│  │      ├─hat
+│  │      ├─headphones
+│  │      ├─hedgehog
+│  │      ├─helicopter
+│  │      ├─helmet
+│  │      ├─hexagon
+│  │      ├─hockey_puck
+│  │      ├─hockey_stick
+│  │      ├─horse
+│  │      ├─hospital
+│  │      ├─hot_air_balloon
+│  │      ├─hot_dog
+│  │      ├─hot_tub
+│  │      ├─hourglass
+│  │      ├─house
+│  │      ├─house_plant
+│  │      ├─hurricane
+│  │      ├─ice_cream
+│  │      ├─jacket
+│  │      ├─jail
+│  │      ├─kangaroo
+│  │      ├─key
+│  │      ├─keyboard
+│  │      ├─knee
+│  │      ├─knife
+│  │      ├─ladder
+│  │      ├─lantern
+│  │      ├─laptop
+│  │      ├─leaf
+│  │      ├─leg
+│  │      ├─lighter
+│  │      ├─lighthouse
+│  │      ├─lightning
+│  │      ├─light_bulb
+│  │      ├─line
+│  │      ├─lion
+│  │      ├─lipstick
+│  │      ├─lobster
+│  │      ├─lollipop
+│  │      ├─mailbox
+│  │      ├─map
+│  │      ├─marker
+│  │      ├─matches
+│  │      ├─megaphone
+│  │      ├─mermaid
+│  │      ├─microphone
+│  │      ├─microwave
+│  │      ├─monkey
+│  │      ├─moon
+│  │      ├─mosquito
+│  │      ├─motorbike
+│  │      ├─mountain
+│  │      ├─mouse
+│  │      ├─moustache
+│  │      ├─mouth
+│  │      ├─mug
+│  │      ├─mushroom
+│  │      ├─nail
+│  │      ├─necklace
+│  │      ├─nose
+│  │      ├─ocean
+│  │      ├─octagon
+│  │      ├─octopus
+│  │      ├─onion
+│  │      ├─oven
+│  │      ├─owl
+│  │      ├─paintbrush
+│  │      ├─paint_can
+│  │      ├─palm_tree
+│  │      ├─panda
+│  │      ├─pants
+│  │      ├─paper_clip
+│  │      ├─parachute
+│  │      ├─parrot
+│  │      ├─passport
+│  │      ├─peanut
+│  │      ├─pear
+│  │      ├─peas
+│  │      ├─pencil
+│  │      ├─penguin
+│  │      ├─piano
+│  │      ├─pickup_truck
+│  │      ├─picture_frame
+│  │      ├─pig
+│  │      ├─pillow
+│  │      ├─pineapple
+│  │      ├─pizza
+│  │      ├─pliers
+│  │      ├─police_car
+│  │      ├─pond
+│  │      ├─pool
+│  │      ├─popsicle
+│  │      ├─postcard
+│  │      ├─potato
+│  │      ├─power_outlet
+│  │      ├─purse
+│  │      ├─rabbit
+│  │      ├─raccoon
+│  │      ├─radio
+│  │      ├─rain
+│  │      ├─rainbow
+│  │      ├─rake
+│  │      ├─remote_control
+│  │      ├─rhinoceros
+│  │      ├─rifle
+│  │      ├─river
+│  │      ├─rollerskates
+│  │      ├─roller_coaster
+│  │      ├─sailboat
+│  │      ├─sandwich
+│  │      ├─saw
+│  │      ├─saxophone
+│  │      ├─school_bus
+│  │      ├─scissors
+│  │      ├─scorpion
+│  │      ├─screwdriver
+│  │      ├─sea_turtle
+│  │      ├─see_saw
+│  │      ├─shark
+│  │      ├─sheep
+│  │      ├─shoe
+│  │      ├─shorts
+│  │      ├─shovel
+│  │      ├─sink
+│  │      ├─skateboard
+│  │      ├─skull
+│  │      ├─skyscraper
+│  │      ├─sleeping_bag
+│  │      ├─smiley_face
+│  │      ├─snail
+│  │      ├─snake
+│  │      ├─snorkel
+│  │      ├─snowflake
+│  │      ├─snowman
+│  │      ├─soccer_ball
+│  │      ├─sock
+│  │      ├─speedboat
+│  │      ├─spider
+│  │      ├─spoon
+│  │      ├─spreadsheet
+│  │      ├─square
+│  │      ├─squiggle
+│  │      ├─squirrel
+│  │      ├─stairs
+│  │      ├─star
+│  │      ├─steak
+│  │      ├─stereo
+│  │      ├─stethoscope
+│  │      ├─stitches
+│  │      ├─stop_sign
+│  │      ├─stove
+│  │      ├─strawberry
+│  │      ├─streetlight
+│  │      ├─string_bean
+│  │      ├─submarine
+│  │      ├─suitcase
+│  │      ├─sun
+│  │      ├─swan
+│  │      ├─sweater
+│  │      ├─swing_set
+│  │      ├─sword
+│  │      ├─syringe
+│  │      ├─t-shirt
+│  │      ├─table
+│  │      ├─teapot
+│  │      ├─teddy-bear
+│  │      ├─telephone
+│  │      ├─television
+│  │      ├─tennis_racquet
+│  │      ├─tent
+│  │      ├─The_Eiffel_Tower
+│  │      ├─The_Great_Wall_of_China
+│  │      ├─The_Mona_Lisa
+│  │      ├─tiger
+│  │      ├─toaster
+│  │      ├─toe
+│  │      ├─toilet
+│  │      ├─tooth
+│  │      ├─toothbrush
+│  │      ├─toothpaste
+│  │      ├─tornado
+│  │      ├─tractor
+│  │      ├─traffic_light
+│  │      ├─train
+│  │      ├─tree
+│  │      ├─triangle
+│  │      ├─trombone
+│  │      ├─truck
+│  │      ├─trumpet
+│  │      ├─umbrella
+│  │      ├─underwear
+│  │      ├─van
+│  │      ├─vase
+│  │      ├─violin
+│  │      ├─washing_machine
+│  │      ├─watermelon
+│  │      ├─waterslide
+│  │      ├─whale
+│  │      ├─wheel
+│  │      ├─windmill
+│  │      ├─wine_bottle
+│  │      ├─wine_glass
+│  │      ├─wristwatch
+│  │      ├─yoga
+│  │      ├─zebra
+│  │      └─zigzag
+│  ├─painting
+│  │  └─painting
+│  │      ├─aircraft_carrier
+│  │      ├─airplane
+│  │      ├─alarm_clock
+│  │      ├─ambulance
+│  │      ├─angel
+│  │      ├─animal_migration
+│  │      ├─ant
+│  │      ├─anvil
+│  │      ├─apple
+│  │      ├─arm
+│  │      ├─asparagus
+│  │      ├─axe
+│  │      ├─backpack
+│  │      ├─banana
+│  │      ├─bandage
+│  │      ├─barn
+│  │      ├─baseball
+│  │      ├─baseball_bat
+│  │      ├─basket
+│  │      ├─basketball
+│  │      ├─bat
+│  │      ├─bathtub
+│  │      ├─beach
+│  │      ├─bear
+│  │      ├─beard
+│  │      ├─bed
+│  │      ├─bee
+│  │      ├─belt
+│  │      ├─bench
+│  │      ├─bicycle
+│  │      ├─binoculars
+│  │      ├─bird
+│  │      ├─birthday_cake
+│  │      ├─blackberry
+│  │      ├─blueberry
+│  │      ├─book
+│  │      ├─boomerang
+│  │      ├─bottlecap
+│  │      ├─bowtie
+│  │      ├─bracelet
+│  │      ├─brain
+│  │      ├─bread
+│  │      ├─bridge
+│  │      ├─broccoli
+│  │      ├─broom
+│  │      ├─bucket
+│  │      ├─bulldozer
+│  │      ├─bus
+│  │      ├─bush
+│  │      ├─butterfly
+│  │      ├─cactus
+│  │      ├─cake
+│  │      ├─calculator
+│  │      ├─calendar
+│  │      ├─camel
+│  │      ├─camera
+│  │      ├─camouflage
+│  │      ├─campfire
+│  │      ├─candle
+│  │      ├─cannon
+│  │      ├─canoe
+│  │      ├─car
+│  │      ├─carrot
+│  │      ├─castle
+│  │      ├─cat
+│  │      ├─ceiling_fan
+│  │      ├─cello
+│  │      ├─cell_phone
+│  │      ├─chair
+│  │      ├─chandelier
+│  │      ├─church
+│  │      ├─circle
+│  │      ├─clarinet
+│  │      ├─clock
+│  │      ├─cloud
+│  │      ├─coffee_cup
+│  │      ├─compass
+│  │      ├─computer
+│  │      ├─cookie
+│  │      ├─cooler
+│  │      ├─couch
+│  │      ├─cow
+│  │      ├─crab
+│  │      ├─crayon
+│  │      ├─crocodile
+│  │      ├─crown
+│  │      ├─cruise_ship
+│  │      ├─cup
+│  │      ├─diamond
+│  │      ├─dishwasher
+│  │      ├─diving_board
+│  │      ├─dog
+│  │      ├─dolphin
+│  │      ├─donut
+│  │      ├─door
+│  │      ├─dragon
+│  │      ├─dresser
+│  │      ├─drill
+│  │      ├─drums
+│  │      ├─duck
+│  │      ├─dumbbell
+│  │      ├─ear
+│  │      ├─elbow
+│  │      ├─elephant
+│  │      ├─envelope
+│  │      ├─eraser
+│  │      ├─eye
+│  │      ├─eyeglasses
+│  │      ├─face
+│  │      ├─fan
+│  │      ├─feather
+│  │      ├─fence
+│  │      ├─finger
+│  │      ├─fireplace
+│  │      ├─firetruck
+│  │      ├─fire_hydrant
+│  │      ├─fish
+│  │      ├─flamingo
+│  │      ├─flashlight
+│  │      ├─flip_flops
+│  │      ├─floor_lamp
+│  │      ├─flower
+│  │      ├─flying_saucer
+│  │      ├─foot
+│  │      ├─fork
+│  │      ├─frog
+│  │      ├─frying_pan
+│  │      ├─garden
+│  │      ├─garden_hose
+│  │      ├─giraffe
+│  │      ├─goatee
+│  │      ├─golf_club
+│  │      ├─grapes
+│  │      ├─grass
+│  │      ├─guitar
+│  │      ├─hamburger
+│  │      ├─hammer
+│  │      ├─hand
+│  │      ├─harp
+│  │      ├─hat
+│  │      ├─headphones
+│  │      ├─hedgehog
+│  │      ├─helicopter
+│  │      ├─helmet
+│  │      ├─hexagon
+│  │      ├─hockey_puck
+│  │      ├─hockey_stick
+│  │      ├─horse
+│  │      ├─hospital
+│  │      ├─hot_air_balloon
+│  │      ├─hot_dog
+│  │      ├─hot_tub
+│  │      ├─hourglass
+│  │      ├─house
+│  │      ├─house_plant
+│  │      ├─hurricane
+│  │      ├─ice_cream
+│  │      ├─jacket
+│  │      ├─jail
+│  │      ├─kangaroo
+│  │      ├─key
+│  │      ├─keyboard
+│  │      ├─knee
+│  │      ├─knife
+│  │      ├─ladder
+│  │      ├─lantern
+│  │      ├─laptop
+│  │      ├─leaf
+│  │      ├─leg
+│  │      ├─lighter
+│  │      ├─lighthouse
+│  │      ├─lightning
+│  │      ├─light_bulb
+│  │      ├─line
+│  │      ├─lion
+│  │      ├─lipstick
+│  │      ├─lobster
+│  │      ├─lollipop
+│  │      ├─mailbox
+│  │      ├─map
+│  │      ├─marker
+│  │      ├─matches
+│  │      ├─megaphone
+│  │      ├─mermaid
+│  │      ├─microphone
+│  │      ├─microwave
+│  │      ├─monkey
+│  │      ├─moon
+│  │      ├─mosquito
+│  │      ├─motorbike
+│  │      ├─mountain
+│  │      ├─mouse
+│  │      ├─moustache
+│  │      ├─mouth
+│  │      ├─mug
+│  │      ├─mushroom
+│  │      ├─nail
+│  │      ├─necklace
+│  │      ├─nose
+│  │      ├─ocean
+│  │      ├─octagon
+│  │      ├─octopus
+│  │      ├─onion
+│  │      ├─oven
+│  │      ├─owl
+│  │      ├─paintbrush
+│  │      ├─paint_can
+│  │      ├─palm_tree
+│  │      ├─panda
+│  │      ├─pants
+│  │      ├─paper_clip
+│  │      ├─parachute
+│  │      ├─parrot
+│  │      ├─passport
+│  │      ├─peanut
+│  │      ├─pear
+│  │      ├─peas
+│  │      ├─pencil
+│  │      ├─penguin
+│  │      ├─piano
+│  │      ├─pickup_truck
+│  │      ├─picture_frame
+│  │      ├─pig
+│  │      ├─pillow
+│  │      ├─pineapple
+│  │      ├─pizza
+│  │      ├─pliers
+│  │      ├─police_car
+│  │      ├─pond
+│  │      ├─pool
+│  │      ├─popsicle
+│  │      ├─postcard
+│  │      ├─potato
+│  │      ├─power_outlet
+│  │      ├─purse
+│  │      ├─rabbit
+│  │      ├─raccoon
+│  │      ├─radio
+│  │      ├─rain
+│  │      ├─rainbow
+│  │      ├─rake
+│  │      ├─remote_control
+│  │      ├─rhinoceros
+│  │      ├─rifle
+│  │      ├─river
+│  │      ├─rollerskates
+│  │      ├─roller_coaster
+│  │      ├─sailboat
+│  │      ├─sandwich
+│  │      ├─saw
+│  │      ├─saxophone
+│  │      ├─school_bus
+│  │      ├─scissors
+│  │      ├─scorpion
+│  │      ├─screwdriver
+│  │      ├─sea_turtle
+│  │      ├─see_saw
+│  │      ├─shark
+│  │      ├─sheep
+│  │      ├─shoe
+│  │      ├─shorts
+│  │      ├─shovel
+│  │      ├─sink
+│  │      ├─skateboard
+│  │      ├─skull
+│  │      ├─skyscraper
+│  │      ├─sleeping_bag
+│  │      ├─smiley_face
+│  │      ├─snail
+│  │      ├─snake
+│  │      ├─snorkel
+│  │      ├─snowflake
+│  │      ├─snowman
+│  │      ├─soccer_ball
+│  │      ├─sock
+│  │      ├─speedboat
+│  │      ├─spider
+│  │      ├─spoon
+│  │      ├─spreadsheet
+│  │      ├─square
+│  │      ├─squiggle
+│  │      ├─squirrel
+│  │      ├─stairs
+│  │      ├─star
+│  │      ├─steak
+│  │      ├─stereo
+│  │      ├─stethoscope
+│  │      ├─stitches
+│  │      ├─stop_sign
+│  │      ├─stove
+│  │      ├─strawberry
+│  │      ├─streetlight
+│  │      ├─string_bean
+│  │      ├─submarine
+│  │      ├─suitcase
+│  │      ├─sun
+│  │      ├─swan
+│  │      ├─sweater
+│  │      ├─swing_set
+│  │      ├─sword
+│  │      ├─syringe
+│  │      ├─t-shirt
+│  │      ├─table
+│  │      ├─teapot
+│  │      ├─teddy-bear
+│  │      ├─telephone
+│  │      ├─television
+│  │      ├─tennis_racquet
+│  │      ├─tent
+│  │      ├─The_Eiffel_Tower
+│  │      ├─The_Great_Wall_of_China
+│  │      ├─The_Mona_Lisa
+│  │      ├─tiger
+│  │      ├─toaster
+│  │      ├─toe
+│  │      ├─toilet
+│  │      ├─tooth
+│  │      ├─toothbrush
+│  │      ├─toothpaste
+│  │      ├─tornado
+│  │      ├─tractor
+│  │      ├─traffic_light
+│  │      ├─train
+│  │      ├─tree
+│  │      ├─triangle
+│  │      ├─trombone
+│  │      ├─truck
+│  │      ├─trumpet
+│  │      ├─umbrella
+│  │      ├─underwear
+│  │      ├─van
+│  │      ├─vase
+│  │      ├─violin
+│  │      ├─washing_machine
+│  │      ├─watermelon
+│  │      ├─waterslide
+│  │      ├─whale
+│  │      ├─wheel
+│  │      ├─windmill
+│  │      ├─wine_bottle
+│  │      ├─wine_glass
+│  │      ├─wristwatch
+│  │      ├─yoga
+│  │      ├─zebra
+│  │      └─zigzag
+│  ├─quickdraw
+│  │  └─quickdraw
+│  │      ├─aircraft_carrier
+│  │      ├─airplane
+│  │      ├─alarm_clock
+│  │      ├─ambulance
+│  │      ├─angel
+│  │      ├─animal_migration
+│  │      ├─ant
+│  │      ├─anvil
+│  │      ├─apple
+│  │      ├─arm
+│  │      ├─asparagus
+│  │      ├─axe
+│  │      ├─backpack
+│  │      ├─banana
+│  │      ├─bandage
+│  │      ├─barn
+│  │      ├─baseball
+│  │      ├─baseball_bat
+│  │      ├─basket
+│  │      ├─basketball
+│  │      ├─bat
+│  │      ├─bathtub
+│  │      ├─beach
+│  │      ├─bear
+│  │      ├─beard
+│  │      ├─bed
+│  │      ├─bee
+│  │      ├─belt
+│  │      ├─bench
+│  │      ├─bicycle
+│  │      ├─binoculars
+│  │      ├─bird
+│  │      ├─birthday_cake
+│  │      ├─blackberry
+│  │      ├─blueberry
+│  │      ├─book
+│  │      ├─boomerang
+│  │      ├─bottlecap
+│  │      ├─bowtie
+│  │      ├─bracelet
+│  │      ├─brain
+│  │      ├─bread
+│  │      ├─bridge
+│  │      ├─broccoli
+│  │      ├─broom
+│  │      ├─bucket
+│  │      ├─bulldozer
+│  │      ├─bus
+│  │      ├─bush
+│  │      ├─butterfly
+│  │      ├─cactus
+│  │      ├─cake
+│  │      ├─calculator
+│  │      ├─calendar
+│  │      ├─camel
+│  │      ├─camera
+│  │      ├─camouflage
+│  │      ├─campfire
+│  │      ├─candle
+│  │      ├─cannon
+│  │      ├─canoe
+│  │      ├─car
+│  │      ├─carrot
+│  │      ├─castle
+│  │      ├─cat
+│  │      ├─ceiling_fan
+│  │      ├─cello
+│  │      ├─cell_phone
+│  │      ├─chair
+│  │      ├─chandelier
+│  │      ├─church
+│  │      ├─circle
+│  │      ├─clarinet
+│  │      ├─clock
+│  │      ├─cloud
+│  │      ├─coffee_cup
+│  │      ├─compass
+│  │      ├─computer
+│  │      ├─cookie
+│  │      ├─cooler
+│  │      ├─couch
+│  │      ├─cow
+│  │      ├─crab
+│  │      ├─crayon
+│  │      ├─crocodile
+│  │      ├─crown
+│  │      ├─cruise_ship
+│  │      ├─cup
+│  │      ├─diamond
+│  │      ├─dishwasher
+│  │      ├─diving_board
+│  │      ├─dog
+│  │      ├─dolphin
+│  │      ├─donut
+│  │      ├─door
+│  │      ├─dragon
+│  │      ├─dresser
+│  │      ├─drill
+│  │      ├─drums
+│  │      ├─duck
+│  │      ├─dumbbell
+│  │      ├─ear
+│  │      ├─elbow
+│  │      ├─elephant
+│  │      ├─envelope
+│  │      ├─eraser
+│  │      ├─eye
+│  │      ├─eyeglasses
+│  │      ├─face
+│  │      ├─fan
+│  │      ├─feather
+│  │      ├─fence
+│  │      ├─finger
+│  │      ├─fireplace
+│  │      ├─firetruck
+│  │      ├─fire_hydrant
+│  │      ├─fish
+│  │      ├─flamingo
+│  │      ├─flashlight
+│  │      ├─flip_flops
+│  │      ├─floor_lamp
+│  │      ├─flower
+│  │      ├─flying_saucer
+│  │      ├─foot
+│  │      ├─fork
+│  │      ├─frog
+│  │      ├─frying_pan
+│  │      ├─garden
+│  │      ├─garden_hose
+│  │      ├─giraffe
+│  │      ├─goatee
+│  │      ├─golf_club
+│  │      ├─grapes
+│  │      ├─grass
+│  │      ├─guitar
+│  │      ├─hamburger
+│  │      ├─hammer
+│  │      ├─hand
+│  │      ├─harp
+│  │      ├─hat
+│  │      ├─headphones
+│  │      ├─hedgehog
+│  │      ├─helicopter
+│  │      ├─helmet
+│  │      ├─hexagon
+│  │      ├─hockey_puck
+│  │      ├─hockey_stick
+│  │      ├─horse
+│  │      ├─hospital
+│  │      ├─hot_air_balloon
+│  │      ├─hot_dog
+│  │      ├─hot_tub
+│  │      ├─hourglass
+│  │      ├─house
+│  │      ├─house_plant
+│  │      ├─hurricane
+│  │      ├─ice_cream
+│  │      ├─jacket
+│  │      ├─jail
+│  │      ├─kangaroo
+│  │      ├─key
+│  │      ├─keyboard
+│  │      ├─knee
+│  │      ├─knife
+│  │      ├─ladder
+│  │      ├─lantern
+│  │      ├─laptop
+│  │      ├─leaf
+│  │      ├─leg
+│  │      ├─lighter
+│  │      ├─lighthouse
+│  │      ├─lightning
+│  │      ├─light_bulb
+│  │      ├─line
+│  │      ├─lion
+│  │      ├─lipstick
+│  │      ├─lobster
+│  │      ├─lollipop
+│  │      ├─mailbox
+│  │      ├─map
+│  │      ├─marker
+│  │      ├─matches
+│  │      ├─megaphone
+│  │      ├─mermaid
+│  │      ├─microphone
+│  │      ├─microwave
+│  │      ├─monkey
+│  │      ├─moon
+│  │      ├─mosquito
+│  │      ├─motorbike
+│  │      ├─mountain
+│  │      ├─mouse
+│  │      ├─moustache
+│  │      ├─mouth
+│  │      ├─mug
+│  │      ├─mushroom
+│  │      ├─nail
+│  │      ├─necklace
+│  │      ├─nose
+│  │      ├─ocean
+│  │      ├─octagon
+│  │      ├─octopus
+│  │      ├─onion
+│  │      ├─oven
+│  │      ├─owl
+│  │      ├─paintbrush
+│  │      ├─paint_can
+│  │      ├─palm_tree
+│  │      ├─panda
+│  │      ├─pants
+│  │      ├─paper_clip
+│  │      ├─parachute
+│  │      ├─parrot
+│  │      ├─passport
+│  │      ├─peanut
+│  │      ├─pear
+│  │      ├─peas
+│  │      ├─pencil
+│  │      ├─penguin
+│  │      ├─piano
+│  │      ├─pickup_truck
+│  │      ├─picture_frame
+│  │      ├─pig
+│  │      ├─pillow
+│  │      ├─pineapple
+│  │      ├─pizza
+│  │      ├─pliers
+│  │      ├─police_car
+│  │      ├─pond
+│  │      ├─pool
+│  │      ├─popsicle
+│  │      ├─postcard
+│  │      ├─potato
+│  │      ├─power_outlet
+│  │      ├─purse
+│  │      ├─rabbit
+│  │      ├─raccoon
+│  │      ├─radio
+│  │      ├─rain
+│  │      ├─rainbow
+│  │      ├─rake
+│  │      ├─remote_control
+│  │      ├─rhinoceros
+│  │      ├─rifle
+│  │      ├─river
+│  │      ├─rollerskates
+│  │      ├─roller_coaster
+│  │      ├─sailboat
+│  │      ├─sandwich
+│  │      ├─saw
+│  │      ├─saxophone
+│  │      ├─school_bus
+│  │      ├─scissors
+│  │      ├─scorpion
+│  │      ├─screwdriver
+│  │      ├─sea_turtle
+│  │      ├─see_saw
+│  │      ├─shark
+│  │      ├─sheep
+│  │      ├─shoe
+│  │      ├─shorts
+│  │      ├─shovel
+│  │      ├─sink
+│  │      ├─skateboard
+│  │      ├─skull
+│  │      ├─skyscraper
+│  │      ├─sleeping_bag
+│  │      ├─smiley_face
+│  │      ├─snail
+│  │      ├─snake
+│  │      ├─snorkel
+│  │      ├─snowflake
+│  │      ├─snowman
+│  │      ├─soccer_ball
+│  │      ├─sock
+│  │      ├─speedboat
+│  │      ├─spider
+│  │      ├─spoon
+│  │      ├─spreadsheet
+│  │      ├─square
+│  │      ├─squiggle
+│  │      ├─squirrel
+│  │      ├─stairs
+│  │      ├─star
+│  │      ├─steak
+│  │      ├─stereo
+│  │      ├─stethoscope
+│  │      ├─stitches
+│  │      ├─stop_sign
+│  │      ├─stove
+│  │      ├─strawberry
+│  │      ├─streetlight
+│  │      ├─string_bean
+│  │      ├─submarine
+│  │      ├─suitcase
+│  │      ├─sun
+│  │      ├─swan
+│  │      ├─sweater
+│  │      ├─swing_set
+│  │      ├─sword
+│  │      ├─syringe
+│  │      ├─t-shirt
+│  │      ├─table
+│  │      ├─teapot
+│  │      ├─teddy-bear
+│  │      ├─telephone
+│  │      ├─television
+│  │      ├─tennis_racquet
+│  │      ├─tent
+│  │      ├─The_Eiffel_Tower
+│  │      ├─The_Great_Wall_of_China
+│  │      ├─The_Mona_Lisa
+│  │      ├─tiger
+│  │      ├─toaster
+│  │      ├─toe
+│  │      ├─toilet
+│  │      ├─tooth
+│  │      ├─toothbrush
+│  │      ├─toothpaste
+│  │      ├─tornado
+│  │      ├─tractor
+│  │      ├─traffic_light
+│  │      ├─train
+│  │      ├─tree
+│  │      ├─triangle
+│  │      ├─trombone
+│  │      ├─truck
+│  │      ├─trumpet
+│  │      ├─umbrella
+│  │      ├─underwear
+│  │      ├─van
+│  │      ├─vase
+│  │      ├─violin
+│  │      ├─washing_machine
+│  │      ├─watermelon
+│  │      ├─waterslide
+│  │      ├─whale
+│  │      ├─wheel
+│  │      ├─windmill
+│  │      ├─wine_bottle
+│  │      ├─wine_glass
+│  │      ├─wristwatch
+│  │      ├─yoga
+│  │      ├─zebra
+│  │      └─zigzag
+│  ├─real
+│  │  └─real
+│  │      ├─aircraft_carrier
+│  │      ├─airplane
+│  │      ├─alarm_clock
+│  │      ├─ambulance
+│  │      ├─angel
+│  │      ├─animal_migration
+│  │      ├─ant
+│  │      ├─anvil
+│  │      ├─apple
+│  │      ├─arm
+│  │      ├─asparagus
+│  │      ├─axe
+│  │      ├─backpack
+│  │      ├─banana
+│  │      ├─bandage
+│  │      ├─barn
+│  │      ├─baseball
+│  │      ├─baseball_bat
+│  │      ├─basket
+│  │      ├─basketball
+│  │      ├─bat
+│  │      ├─bathtub
+│  │      ├─beach
+│  │      ├─bear
+│  │      ├─beard
+│  │      ├─bed
+│  │      ├─bee
+│  │      ├─belt
+│  │      ├─bench
+│  │      ├─bicycle
+│  │      ├─binoculars
+│  │      ├─bird
+│  │      ├─birthday_cake
+│  │      ├─blackberry
+│  │      ├─blueberry
+│  │      ├─book
+│  │      ├─boomerang
+│  │      ├─bottlecap
+│  │      ├─bowtie
+│  │      ├─bracelet
+│  │      ├─brain
+│  │      ├─bread
+│  │      ├─bridge
+│  │      ├─broccoli
+│  │      ├─broom
+│  │      ├─bucket
+│  │      ├─bulldozer
+│  │      ├─bus
+│  │      ├─bush
+│  │      ├─butterfly
+│  │      ├─cactus
+│  │      ├─cake
+│  │      ├─calculator
+│  │      ├─calendar
+│  │      ├─camel
+│  │      ├─camera
+│  │      ├─camouflage
+│  │      ├─campfire
+│  │      ├─candle
+│  │      ├─cannon
+│  │      ├─canoe
+│  │      ├─car
+│  │      ├─carrot
+│  │      ├─castle
+│  │      ├─cat
+│  │      ├─ceiling_fan
+│  │      ├─cello
+│  │      ├─cell_phone
+│  │      ├─chair
+│  │      ├─chandelier
+│  │      ├─church
+│  │      ├─circle
+│  │      ├─clarinet
+│  │      ├─clock
+│  │      ├─cloud
+│  │      ├─coffee_cup
+│  │      ├─compass
+│  │      ├─computer
+│  │      ├─cookie
+│  │      ├─cooler
+│  │      ├─couch
+│  │      ├─cow
+│  │      ├─crab
+│  │      ├─crayon
+│  │      ├─crocodile
+│  │      ├─crown
+│  │      ├─cruise_ship
+│  │      ├─cup
+│  │      ├─diamond
+│  │      ├─dishwasher
+│  │      ├─diving_board
+│  │      ├─dog
+│  │      ├─dolphin
+│  │      ├─donut
+│  │      ├─door
+│  │      ├─dragon
+│  │      ├─dresser
+│  │      ├─drill
+│  │      ├─drums
+│  │      ├─duck
+│  │      ├─dumbbell
+│  │      ├─ear
+│  │      ├─elbow
+│  │      ├─elephant
+│  │      ├─envelope
+│  │      ├─eraser
+│  │      ├─eye
+│  │      ├─eyeglasses
+│  │      ├─face
+│  │      ├─fan
+│  │      ├─feather
+│  │      ├─fence
+│  │      ├─finger
+│  │      ├─fireplace
+│  │      ├─firetruck
+│  │      ├─fire_hydrant
+│  │      ├─fish
+│  │      ├─flamingo
+│  │      ├─flashlight
+│  │      ├─flip_flops
+│  │      ├─floor_lamp
+│  │      ├─flower
+│  │      ├─flying_saucer
+│  │      ├─foot
+│  │      ├─fork
+│  │      ├─frog
+│  │      ├─frying_pan
+│  │      ├─garden
+│  │      ├─garden_hose
+│  │      ├─giraffe
+│  │      ├─goatee
+│  │      ├─golf_club
+│  │      ├─grapes
+│  │      ├─grass
+│  │      ├─guitar
+│  │      ├─hamburger
+│  │      ├─hammer
+│  │      ├─hand
+│  │      ├─harp
+│  │      ├─hat
+│  │      ├─headphones
+│  │      ├─hedgehog
+│  │      ├─helicopter
+│  │      ├─helmet
+│  │      ├─hexagon
+│  │      ├─hockey_puck
+│  │      ├─hockey_stick
+│  │      ├─horse
+│  │      ├─hospital
+│  │      ├─hot_air_balloon
+│  │      ├─hot_dog
+│  │      ├─hot_tub
+│  │      ├─hourglass
+│  │      ├─house
+│  │      ├─house_plant
+│  │      ├─hurricane
+│  │      ├─ice_cream
+│  │      ├─jacket
+│  │      ├─jail
+│  │      ├─kangaroo
+│  │      ├─key
+│  │      ├─keyboard
+│  │      ├─knee
+│  │      ├─knife
+│  │      ├─ladder
+│  │      ├─lantern
+│  │      ├─laptop
+│  │      ├─leaf
+│  │      ├─leg
+│  │      ├─lighter
+│  │      ├─lighthouse
+│  │      ├─lightning
+│  │      ├─light_bulb
+│  │      ├─line
+│  │      ├─lion
+│  │      ├─lipstick
+│  │      ├─lobster
+│  │      ├─lollipop
+│  │      ├─mailbox
+│  │      ├─map
+│  │      ├─marker
+│  │      ├─matches
+│  │      ├─megaphone
+│  │      ├─mermaid
+│  │      ├─microphone
+│  │      ├─microwave
+│  │      ├─monkey
+│  │      ├─moon
+│  │      ├─mosquito
+│  │      ├─motorbike
+│  │      ├─mountain
+│  │      ├─mouse
+│  │      ├─moustache
+│  │      ├─mouth
+│  │      ├─mug
+│  │      ├─mushroom
+│  │      ├─nail
+│  │      ├─necklace
+│  │      ├─nose
+│  │      ├─ocean
+│  │      ├─octagon
+│  │      ├─octopus
+│  │      ├─onion
+│  │      ├─oven
+│  │      ├─owl
+│  │      ├─paintbrush
+│  │      ├─paint_can
+│  │      ├─palm_tree
+│  │      ├─panda
+│  │      ├─pants
+│  │      ├─paper_clip
+│  │      ├─parachute
+│  │      ├─parrot
+│  │      ├─passport
+│  │      ├─peanut
+│  │      ├─pear
+│  │      ├─peas
+│  │      ├─pencil
+│  │      ├─penguin
+│  │      ├─piano
+│  │      ├─pickup_truck
+│  │      ├─picture_frame
+│  │      ├─pig
+│  │      ├─pillow
+│  │      ├─pineapple
+│  │      ├─pizza
+│  │      ├─pliers
+│  │      ├─police_car
+│  │      ├─pond
+│  │      ├─pool
+│  │      ├─popsicle
+│  │      ├─postcard
+│  │      ├─potato
+│  │      ├─power_outlet
+│  │      ├─purse
+│  │      ├─rabbit
+│  │      ├─raccoon
+│  │      ├─radio
+│  │      ├─rain
+│  │      ├─rainbow
+│  │      ├─rake
+│  │      ├─remote_control
+│  │      ├─rhinoceros
+│  │      ├─rifle
+│  │      ├─river
+│  │      ├─rollerskates
+│  │      ├─roller_coaster
+│  │      ├─sailboat
+│  │      ├─sandwich
+│  │      ├─saw
+│  │      ├─saxophone
+│  │      ├─school_bus
+│  │      ├─scissors
+│  │      ├─scorpion
+│  │      ├─screwdriver
+│  │      ├─sea_turtle
+│  │      ├─see_saw
+│  │      ├─shark
+│  │      ├─sheep
+│  │      ├─shoe
+│  │      ├─shorts
+│  │      ├─shovel
+│  │      ├─sink
+│  │      ├─skateboard
+│  │      ├─skull
+│  │      ├─skyscraper
+│  │      ├─sleeping_bag
+│  │      ├─smiley_face
+│  │      ├─snail
+│  │      ├─snake
+│  │      ├─snorkel
+│  │      ├─snowflake
+│  │      ├─snowman
+│  │      ├─soccer_ball
+│  │      ├─sock
+│  │      ├─speedboat
+│  │      ├─spider
+│  │      ├─spoon
+│  │      ├─spreadsheet
+│  │      ├─square
+│  │      ├─squiggle
+│  │      ├─squirrel
+│  │      ├─stairs
+│  │      ├─star
+│  │      ├─steak
+│  │      ├─stereo
+│  │      ├─stethoscope
+│  │      ├─stitches
+│  │      ├─stop_sign
+│  │      ├─stove
+│  │      ├─strawberry
+│  │      ├─streetlight
+│  │      ├─string_bean
+│  │      ├─submarine
+│  │      ├─suitcase
+│  │      ├─sun
+│  │      ├─swan
+│  │      ├─sweater
+│  │      ├─swing_set
+│  │      ├─sword
+│  │      ├─syringe
+│  │      ├─t-shirt
+│  │      ├─table
+│  │      ├─teapot
+│  │      ├─teddy-bear
+│  │      ├─telephone
+│  │      ├─television
+│  │      ├─tennis_racquet
+│  │      ├─tent
+│  │      ├─The_Eiffel_Tower
+│  │      ├─The_Great_Wall_of_China
+│  │      ├─The_Mona_Lisa
+│  │      ├─tiger
+│  │      ├─toaster
+│  │      ├─toe
+│  │      ├─toilet
+│  │      ├─tooth
+│  │      ├─toothbrush
+│  │      ├─toothpaste
+│  │      ├─tornado
+│  │      ├─tractor
+│  │      ├─traffic_light
+│  │      ├─train
+│  │      ├─tree
+│  │      ├─triangle
+│  │      ├─trombone
+│  │      ├─truck
+│  │      ├─trumpet
+│  │      ├─umbrella
+│  │      ├─underwear
+│  │      ├─van
+│  │      ├─vase
+│  │      ├─violin
+│  │      ├─washing_machine
+│  │      ├─watermelon
+│  │      ├─waterslide
+│  │      ├─whale
+│  │      ├─wheel
+│  │      ├─windmill
+│  │      ├─wine_bottle
+│  │      ├─wine_glass
+│  │      ├─wristwatch
+│  │      ├─yoga
+│  │      ├─zebra
+│  │      └─zigzag
+│  └─sketch
+│      └─sketch
+│          ├─aircraft_carrier
+│          ├─airplane
+│          ├─alarm_clock
+│          ├─ambulance
+│          ├─angel
+│          ├─animal_migration
+│          ├─ant
+│          ├─anvil
+│          ├─apple
+│          ├─arm
+│          ├─asparagus
+│          ├─axe
+│          ├─backpack
+│          ├─banana
+│          ├─bandage
+│          ├─barn
+│          ├─baseball
+│          ├─baseball_bat
+│          ├─basket
+│          ├─basketball
+│          ├─bat
+│          ├─bathtub
+│          ├─beach
+│          ├─bear
+│          ├─beard
+│          ├─bed
+│          ├─bee
+│          ├─belt
+│          ├─bench
+│          ├─bicycle
+│          ├─binoculars
+│          ├─bird
+│          ├─birthday_cake
+│          ├─blackberry
+│          ├─blueberry
+│          ├─book
+│          ├─boomerang
+│          ├─bottlecap
+│          ├─bowtie
+│          ├─bracelet
+│          ├─brain
+│          ├─bread
+│          ├─bridge
+│          ├─broccoli
+│          ├─broom
+│          ├─bucket
+│          ├─bulldozer
+│          ├─bus
+│          ├─bush
+│          ├─butterfly
+│          ├─cactus
+│          ├─cake
+│          ├─calculator
+│          ├─calendar
+│          ├─camel
+│          ├─camera
+│          ├─camouflage
+│          ├─campfire
+│          ├─candle
+│          ├─cannon
+│          ├─canoe
+│          ├─car
+│          ├─carrot
+│          ├─castle
+│          ├─cat
+│          ├─ceiling_fan
+│          ├─cello
+│          ├─cell_phone
+│          ├─chair
+│          ├─chandelier
+│          ├─church
+│          ├─circle
+│          ├─clarinet
+│          ├─clock
+│          ├─cloud
+│          ├─coffee_cup
+│          ├─compass
+│          ├─computer
+│          ├─cookie
+│          ├─cooler
+│          ├─couch
+│          ├─cow
+│          ├─crab
+│          ├─crayon
+│          ├─crocodile
+│          ├─crown
+│          ├─cruise_ship
+│          ├─cup
+│          ├─diamond
+│          ├─dishwasher
+│          ├─diving_board
+│          ├─dog
+│          ├─dolphin
+│          ├─donut
+│          ├─door
+│          ├─dragon
+│          ├─dresser
+│          ├─drill
+│          ├─drums
+│          ├─duck
+│          ├─dumbbell
+│          ├─ear
+│          ├─elbow
+│          ├─elephant
+│          ├─envelope
+│          ├─eraser
+│          ├─eye
+│          ├─eyeglasses
+│          ├─face
+│          ├─fan
+│          ├─feather
+│          ├─fence
+│          ├─finger
+│          ├─fireplace
+│          ├─firetruck
+│          ├─fire_hydrant
+│          ├─fish
+│          ├─flamingo
+│          ├─flashlight
+│          ├─flip_flops
+│          ├─floor_lamp
+│          ├─flower
+│          ├─flying_saucer
+│          ├─foot
+│          ├─fork
+│          ├─frog
+│          ├─frying_pan
+│          ├─garden
+│          ├─garden_hose
+│          ├─giraffe
+│          ├─goatee
+│          ├─golf_club
+│          ├─grapes
+│          ├─grass
+│          ├─guitar
+│          ├─hamburger
+│          ├─hammer
+│          ├─hand
+│          ├─harp
+│          ├─hat
+│          ├─headphones
+│          ├─hedgehog
+│          ├─helicopter
+│          ├─helmet
+│          ├─hexagon
+│          ├─hockey_puck
+│          ├─hockey_stick
+│          ├─horse
+│          ├─hospital
+│          ├─hot_air_balloon
+│          ├─hot_dog
+│          ├─hot_tub
+│          ├─hourglass
+│          ├─house
+│          ├─house_plant
+│          ├─hurricane
+│          ├─ice_cream
+│          ├─jacket
+│          ├─jail
+│          ├─kangaroo
+│          ├─key
+│          ├─keyboard
+│          ├─knee
+│          ├─knife
+│          ├─ladder
+│          ├─lantern
+│          ├─laptop
+│          ├─leaf
+│          ├─leg
+│          ├─lighter
+│          ├─lighthouse
+│          ├─lightning
+│          ├─light_bulb
+│          ├─line
+│          ├─lion
+│          ├─lipstick
+│          ├─lobster
+│          ├─lollipop
+│          ├─mailbox
+│          ├─map
+│          ├─marker
+│          ├─matches
+│          ├─megaphone
+│          ├─mermaid
+│          ├─microphone
+│          ├─microwave
+│          ├─monkey
+│          ├─moon
+│          ├─mosquito
+│          ├─motorbike
+│          ├─mountain
+│          ├─mouse
+│          ├─moustache
+│          ├─mouth
+│          ├─mug
+│          ├─mushroom
+│          ├─nail
+│          ├─necklace
+│          ├─nose
+│          ├─ocean
+│          ├─octagon
+│          ├─octopus
+│          ├─onion
+│          ├─oven
+│          ├─owl
+│          ├─paintbrush
+│          ├─paint_can
+│          ├─palm_tree
+│          ├─panda
+│          ├─pants
+│          ├─paper_clip
+│          ├─parachute
+│          ├─parrot
+│          ├─passport
+│          ├─peanut
+│          ├─pear
+│          ├─peas
+│          ├─pencil
+│          ├─penguin
+│          ├─piano
+│          ├─pickup_truck
+│          ├─picture_frame
+│          ├─pig
+│          ├─pillow
+│          ├─pineapple
+│          ├─pizza
+│          ├─pliers
+│          ├─police_car
+│          ├─pond
+│          ├─pool
+│          ├─popsicle
+│          ├─postcard
+│          ├─potato
+│          ├─power_outlet
+│          ├─purse
+│          ├─rabbit
+│          ├─raccoon
+│          ├─radio
+│          ├─rain
+│          ├─rainbow
+│          ├─rake
+│          ├─remote_control
+│          ├─rhinoceros
+│          ├─rifle
+│          ├─river
+│          ├─rollerskates
+│          ├─roller_coaster
+│          ├─sailboat
+│          ├─sandwich
+│          ├─saw
+│          ├─saxophone
+│          ├─school_bus
+│          ├─scissors
+│          ├─scorpion
+│          ├─screwdriver
+│          ├─sea_turtle
+│          ├─see_saw
+│          ├─shark
+│          ├─sheep
+│          ├─shoe
+│          ├─shorts
+│          ├─shovel
+│          ├─sink
+│          ├─skateboard
+│          ├─skull
+│          ├─skyscraper
+│          ├─sleeping_bag
+│          ├─smiley_face
+│          ├─snail
+│          ├─snake
+│          ├─snorkel
+│          ├─snowflake
+│          ├─snowman
+│          ├─soccer_ball
+│          ├─sock
+│          ├─speedboat
+│          ├─spider
+│          ├─spoon
+│          ├─spreadsheet
+│          ├─square
+│          ├─squiggle
+│          ├─squirrel
+│          ├─stairs
+│          ├─star
+│          ├─steak
+│          ├─stereo
+│          ├─stethoscope
+│          ├─stitches
+│          ├─stop_sign
+│          ├─stove
+│          ├─strawberry
+│          ├─streetlight
+│          ├─string_bean
+│          ├─submarine
+│          ├─suitcase
+│          ├─sun
+│          ├─swan
+│          ├─sweater
+│          ├─swing_set
+│          ├─sword
+│          ├─syringe
+│          ├─t-shirt
+│          ├─table
+│          ├─teapot
+│          ├─teddy-bear
+│          ├─telephone
+│          ├─television
+│          ├─tennis_racquet
+│          ├─tent
+│          ├─The_Eiffel_Tower
+│          ├─The_Great_Wall_of_China
+│          ├─The_Mona_Lisa
+│          ├─tiger
+│          ├─toaster
+│          ├─toe
+│          ├─toilet
+│          ├─tooth
+│          ├─toothbrush
+│          ├─toothpaste
+│          ├─tornado
+│          ├─tractor
+│          ├─traffic_light
+│          ├─train
+│          ├─tree
+│          ├─triangle
+│          ├─trombone
+│          ├─truck
+│          ├─trumpet
+│          ├─umbrella
+│          ├─underwear
+│          ├─van
+│          ├─vase
+│          ├─violin
+│          ├─washing_machine
+│          ├─watermelon
+│          ├─waterslide
+│          ├─whale
+│          ├─wheel
+│          ├─windmill
+│          ├─wine_bottle
+│          ├─wine_glass
+│          ├─wristwatch
+│          ├─yoga
+│          ├─zebra
+│          └─zigzag
+├─for_vis
+│  ├─101_ObjectCategories
+│  │  ├─accordion
+│  │  ├─airplanes
+│  │  ├─anchor
+│  │  ├─ant
+│  │  ├─BACKGROUND_Google
+│  │  ├─barrel
+│  │  ├─bass
+│  │  ├─beaver
+│  │  ├─binocular
+│  │  ├─bonsai
+│  │  ├─brain
+│  │  ├─brontosaurus
+│  │  ├─buddha
+│  │  ├─butterfly
+│  │  ├─camera
+│  │  ├─cannon
+│  │  ├─car_side
+│  │  ├─ceiling_fan
+│  │  ├─cellphone
+│  │  ├─chair
+│  │  ├─chandelier
+│  │  ├─cougar_body
+│  │  ├─cougar_face
+│  │  ├─crab
+│  │  ├─crayfish
+│  │  ├─crocodile
+│  │  ├─crocodile_head
+│  │  ├─cup
+│  │  ├─dalmatian
+│  │  ├─dollar_bill
+│  │  ├─dolphin
+│  │  ├─dragonfly
+│  │  ├─electric_guitar
+│  │  ├─elephant
+│  │  ├─emu
+│  │  ├─euphonium
+│  │  ├─ewer
+│  │  ├─Faces
+│  │  ├─Faces_easy
+│  │  ├─ferry
+│  │  ├─flamingo
+│  │  ├─flamingo_head
+│  │  ├─garfield
+│  │  ├─gerenuk
+│  │  ├─gramophone
+│  │  ├─grand_piano
+│  │  ├─hawksbill
+│  │  ├─headphone
+│  │  ├─hedgehog
+│  │  ├─helicopter
+│  │  ├─ibis
+│  │  ├─inline_skate
+│  │  ├─joshua_tree
+│  │  ├─kangaroo
+│  │  ├─ketch
+│  │  ├─lamp
+│  │  ├─laptop
+│  │  ├─Leopards
+│  │  ├─llama
+│  │  ├─lobster
+│  │  ├─lotus
+│  │  ├─mandolin
+│  │  ├─mayfly
+│  │  ├─menorah
+│  │  ├─metronome
+│  │  ├─minaret
+│  │  ├─Motorbikes
+│  │  ├─nautilus
+│  │  ├─octopus
+│  │  ├─okapi
+│  │  ├─pagoda
+│  │  ├─panda
+│  │  ├─pigeon
+│  │  ├─pizza
+│  │  ├─platypus
+│  │  ├─pyramid
+│  │  ├─revolver
+│  │  ├─rhino
+│  │  ├─rooster
+│  │  ├─saxophone
+│  │  ├─schooner
+│  │  ├─scissors
+│  │  ├─scorpion
+│  │  ├─sea_horse
+│  │  ├─snoopy
+│  │  ├─soccer_ball
+│  │  ├─stapler
+│  │  ├─starfish
+│  │  ├─stegosaurus
+│  │  ├─stop_sign
+│  │  ├─strawberry
+│  │  ├─sunflower
+│  │  ├─tick
+│  │  ├─trilobite
+│  │  ├─umbrella
+│  │  ├─watch
+│  │  ├─water_lilly
+│  │  ├─wheelchair
+│  │  ├─wild_cat
+│  │  ├─windsor_chair
+│  │  ├─wrench
+│  │  └─yin_yang
+│  ├─coil-20-proc
+│  ├─coil-20-unproc
+│  ├─crossdataset
+│  │  ├─caltech
+│  │  │  ├─1
+│  │  │  ├─10
+│  │  │  ├─11
+│  │  │  ├─12
+│  │  │  ├─13
+│  │  │  ├─14
+│  │  │  ├─15
+│  │  │  ├─16
+│  │  │  ├─17
+│  │  │  ├─18
+│  │  │  ├─19
+│  │  │  ├─2
+│  │  │  ├─20
+│  │  │  ├─21
+│  │  │  ├─22
+│  │  │  ├─23
+│  │  │  ├─24
+│  │  │  ├─25
+│  │  │  ├─26
+│  │  │  ├─27
+│  │  │  ├─28
+│  │  │  ├─29
+│  │  │  ├─3
+│  │  │  ├─30
+│  │  │  ├─31
+│  │  │  ├─32
+│  │  │  ├─33
+│  │  │  ├─34
+│  │  │  ├─35
+│  │  │  ├─36
+│  │  │  ├─37
+│  │  │  ├─38
+│  │  │  ├─39
+│  │  │  ├─4
+│  │  │  ├─40
+│  │  │  ├─5
+│  │  │  ├─6
+│  │  │  ├─7
+│  │  │  ├─8
+│  │  │  └─9
+│  │  ├─imagenet
+│  │  │  ├─airplane
+│  │  │  ├─backpack
+│  │  │  ├─basket
+│  │  │  ├─bathtub
+│  │  │  ├─beacon
+│  │  │  ├─cake mix
+│  │  │  ├─cannon
+│  │  │  ├─car
+│  │  │  ├─chandelier
+│  │  │  ├─coffee mug
+│  │  │  ├─computer keyboard
+│  │  │  ├─computer monitor
+│  │  │  ├─dog
+│  │  │  ├─fire extinguisher
+│  │  │  ├─grand piano
+│  │  │  ├─gym shoe
+│  │  │  ├─helicopter
+│  │  │  ├─horse
+│  │  │  ├─jersey
+│  │  │  ├─knife
+│  │  │  ├─knob
+│  │  │  ├─laptop
+│  │  │  ├─microwave
+│  │  │  ├─motorcycle
+│  │  │  ├─mouse
+│  │  │  ├─palm
+│  │  │  ├─people
+│  │  │  ├─pool table
+│  │  │  ├─refrigerator
+│  │  │  ├─scaling ladder
+│  │  │  ├─skyscraper
+│  │  │  ├─soda can
+│  │  │  ├─spoon
+│  │  │  ├─steering wheel
+│  │  │  ├─teapot
+│  │  │  ├─toaster
+│  │  │  ├─traffic light
+│  │  │  ├─umbrella
+│  │  │  ├─washer
+│  │  │  └─windmill
+│  │  └─sun
+│  │      ├─1
+│  │      ├─10
+│  │      ├─11
+│  │      ├─12
+│  │      ├─13
+│  │      ├─14
+│  │      ├─15
+│  │      ├─16
+│  │      ├─17
+│  │      ├─18
+│  │      ├─19
+│  │      ├─2
+│  │      ├─20
+│  │      ├─21
+│  │      ├─22
+│  │      ├─23
+│  │      ├─24
+│  │      ├─25
+│  │      ├─26
+│  │      ├─27
+│  │      ├─28
+│  │      ├─29
+│  │      ├─3
+│  │      ├─30
+│  │      ├─31
+│  │      ├─32
+│  │      ├─33
+│  │      ├─34
+│  │      ├─35
+│  │      ├─36
+│  │      ├─37
+│  │      ├─38
+│  │      ├─39
+│  │      ├─4
+│  │      ├─40
+│  │      ├─5
+│  │      ├─6
+│  │      ├─7
+│  │      ├─8
+│  │      └─9
+│  ├─image_CLEF
+│  │  ├─b
+│  │  ├─c
+│  │  ├─i
+│  │  ├─list
+│  │  └─p
+│  ├─labelme
+│  │  ├─test
+│  │  │  ├─0000
+│  │  │  ├─0001
+│  │  │  ├─0002
+│  │  │  ├─0003
+│  │  │  ├─0004
+│  │  │  ├─0005
+│  │  │  ├─0006
+│  │  │  ├─0007
+│  │  │  ├─0008
+│  │  │  └─0009
+│  │  └─train
+│  │      ├─0000
+│  │      ├─0001
+│  │      ├─0002
+│  │      ├─0003
+│  │      ├─0004
+│  │      ├─0005
+│  │      ├─0006
+│  │      ├─0007
+│  │      ├─0008
+│  │      ├─0009
+│  │      ├─0010
+│  │      ├─0011
+│  │      ├─0012
+│  │      ├─0013
+│  │      ├─0014
+│  │      ├─0015
+│  │      ├─0016
+│  │      ├─0017
+│  │      ├─0018
+│  │      ├─0019
+│  │      ├─0020
+│  │      ├─0021
+│  │      ├─0022
+│  │      ├─0023
+│  │      ├─0024
+│  │      ├─0025
+│  │      ├─0026
+│  │      ├─0027
+│  │      ├─0028
+│  │      ├─0029
+│  │      ├─0030
+│  │      ├─0031
+│  │      ├─0032
+│  │      ├─0033
+│  │      ├─0034
+│  │      ├─0035
+│  │      ├─0036
+│  │      ├─0037
+│  │      ├─0038
+│  │      └─0039
+│  ├─mnist+usps
+│  ├─OfficeHomeDataset_10072016
+│  │  ├─Art
+│  │  │  ├─Alarm_Clock
+│  │  │  ├─Backpack
+│  │  │  ├─Batteries
+│  │  │  ├─Bed
+│  │  │  ├─Bike
+│  │  │  ├─Bottle
+│  │  │  ├─Bucket
+│  │  │  ├─Calculator
+│  │  │  ├─Calendar
+│  │  │  ├─Candles
+│  │  │  ├─Chair
+│  │  │  ├─Clipboards
+│  │  │  ├─Computer
+│  │  │  ├─Couch
+│  │  │  ├─Curtains
+│  │  │  ├─Desk_Lamp
+│  │  │  ├─Drill
+│  │  │  ├─Eraser
+│  │  │  ├─Exit_Sign
+│  │  │  ├─Fan
+│  │  │  ├─File_Cabinet
+│  │  │  ├─Flipflops
+│  │  │  ├─Flowers
+│  │  │  ├─Folder
+│  │  │  ├─Fork
+│  │  │  ├─Glasses
+│  │  │  ├─Hammer
+│  │  │  ├─Helmet
+│  │  │  ├─Kettle
+│  │  │  ├─Keyboard
+│  │  │  ├─Knives
+│  │  │  ├─Lamp_Shade
+│  │  │  ├─Laptop
+│  │  │  ├─Marker
+│  │  │  ├─Monitor
+│  │  │  ├─Mop
+│  │  │  ├─Mouse
+│  │  │  ├─Mug
+│  │  │  ├─Notebook
+│  │  │  ├─Oven
+│  │  │  ├─Pan
+│  │  │  ├─Paper_Clip
+│  │  │  ├─Pen
+│  │  │  ├─Pencil
+│  │  │  ├─Postit_Notes
+│  │  │  ├─Printer
+│  │  │  ├─Push_Pin
+│  │  │  ├─Radio
+│  │  │  ├─Refrigerator
+│  │  │  ├─Ruler
+│  │  │  ├─Scissors
+│  │  │  ├─Screwdriver
+│  │  │  ├─Shelf
+│  │  │  ├─Sink
+│  │  │  ├─Sneakers
+│  │  │  ├─Soda
+│  │  │  ├─Speaker
+│  │  │  ├─Spoon
+│  │  │  ├─Table
+│  │  │  ├─Telephone
+│  │  │  ├─ToothBrush
+│  │  │  ├─Toys
+│  │  │  ├─Trash_Can
+│  │  │  ├─TV
+│  │  │  └─Webcam
+│  │  ├─Clipart
+│  │  │  ├─Alarm_Clock
+│  │  │  ├─Backpack
+│  │  │  ├─Batteries
+│  │  │  ├─Bed
+│  │  │  ├─Bike
+│  │  │  ├─Bottle
+│  │  │  ├─Bucket
+│  │  │  ├─Calculator
+│  │  │  ├─Calendar
+│  │  │  ├─Candles
+│  │  │  ├─Chair
+│  │  │  ├─Clipboards
+│  │  │  ├─Computer
+│  │  │  ├─Couch
+│  │  │  ├─Curtains
+│  │  │  ├─Desk_Lamp
+│  │  │  ├─Drill
+│  │  │  ├─Eraser
+│  │  │  ├─Exit_Sign
+│  │  │  ├─Fan
+│  │  │  ├─File_Cabinet
+│  │  │  ├─Flipflops
+│  │  │  ├─Flowers
+│  │  │  ├─Folder
+│  │  │  ├─Fork
+│  │  │  ├─Glasses
+│  │  │  ├─Hammer
+│  │  │  ├─Helmet
+│  │  │  ├─Kettle
+│  │  │  ├─Keyboard
+│  │  │  ├─Knives
+│  │  │  ├─Lamp_Shade
+│  │  │  ├─Laptop
+│  │  │  ├─Marker
+│  │  │  ├─Monitor
+│  │  │  ├─Mop
+│  │  │  ├─Mouse
+│  │  │  ├─Mug
+│  │  │  ├─Notebook
+│  │  │  ├─Oven
+│  │  │  ├─Pan
+│  │  │  ├─Paper_Clip
+│  │  │  ├─Pen
+│  │  │  ├─Pencil
+│  │  │  ├─Postit_Notes
+│  │  │  ├─Printer
+│  │  │  ├─Push_Pin
+│  │  │  ├─Radio
+│  │  │  ├─Refrigerator
+│  │  │  ├─Ruler
+│  │  │  ├─Scissors
+│  │  │  ├─Screwdriver
+│  │  │  ├─Shelf
+│  │  │  ├─Sink
+│  │  │  ├─Sneakers
+│  │  │  ├─Soda
+│  │  │  ├─Speaker
+│  │  │  ├─Spoon
+│  │  │  ├─Table
+│  │  │  ├─Telephone
+│  │  │  ├─ToothBrush
+│  │  │  ├─Toys
+│  │  │  ├─Trash_Can
+│  │  │  ├─TV
+│  │  │  └─Webcam
+│  │  ├─Product
+│  │  │  ├─Alarm_Clock
+│  │  │  ├─Backpack
+│  │  │  ├─Batteries
+│  │  │  ├─Bed
+│  │  │  ├─Bike
+│  │  │  ├─Bottle
+│  │  │  ├─Bucket
+│  │  │  ├─Calculator
+│  │  │  ├─Calendar
+│  │  │  ├─Candles
+│  │  │  ├─Chair
+│  │  │  ├─Clipboards
+│  │  │  ├─Computer
+│  │  │  ├─Couch
+│  │  │  ├─Curtains
+│  │  │  ├─Desk_Lamp
+│  │  │  ├─Drill
+│  │  │  ├─Eraser
+│  │  │  ├─Exit_Sign
+│  │  │  ├─Fan
+│  │  │  ├─File_Cabinet
+│  │  │  ├─Flipflops
+│  │  │  ├─Flowers
+│  │  │  ├─Folder
+│  │  │  ├─Fork
+│  │  │  ├─Glasses
+│  │  │  ├─Hammer
+│  │  │  ├─Helmet
+│  │  │  ├─Kettle
+│  │  │  ├─Keyboard
+│  │  │  ├─Knives
+│  │  │  ├─Lamp_Shade
+│  │  │  ├─Laptop
+│  │  │  ├─Marker
+│  │  │  ├─Monitor
+│  │  │  ├─Mop
+│  │  │  ├─Mouse
+│  │  │  ├─Mug
+│  │  │  ├─Notebook
+│  │  │  ├─Oven
+│  │  │  ├─Pan
+│  │  │  ├─Paper_Clip
+│  │  │  ├─Pen
+│  │  │  ├─Pencil
+│  │  │  ├─Postit_Notes
+│  │  │  ├─Printer
+│  │  │  ├─Push_Pin
+│  │  │  ├─Radio
+│  │  │  ├─Refrigerator
+│  │  │  ├─Ruler
+│  │  │  ├─Scissors
+│  │  │  ├─Screwdriver
+│  │  │  ├─Shelf
+│  │  │  ├─Sink
+│  │  │  ├─Sneakers
+│  │  │  ├─Soda
+│  │  │  ├─Speaker
+│  │  │  ├─Spoon
+│  │  │  ├─Table
+│  │  │  ├─Telephone
+│  │  │  ├─ToothBrush
+│  │  │  ├─Toys
+│  │  │  ├─Trash_Can
+│  │  │  ├─TV
+│  │  │  └─Webcam
+│  │  └─Real World
+│  │      ├─Alarm_Clock
+│  │      ├─Backpack
+│  │      ├─Batteries
+│  │      ├─Bed
+│  │      ├─Bike
+│  │      ├─Bottle
+│  │      ├─Bucket
+│  │      ├─Calculator
+│  │      ├─Calendar
+│  │      ├─Candles
+│  │      ├─Chair
+│  │      ├─Clipboards
+│  │      ├─Computer
+│  │      ├─Couch
+│  │      ├─Curtains
+│  │      ├─Desk_Lamp
+│  │      ├─Drill
+│  │      ├─Eraser
+│  │      ├─Exit_Sign
+│  │      ├─Fan
+│  │      ├─File_Cabinet
+│  │      ├─Flipflops
+│  │      ├─Flowers
+│  │      ├─Folder
+│  │      ├─Fork
+│  │      ├─Glasses
+│  │      ├─Hammer
+│  │      ├─Helmet
+│  │      ├─Kettle
+│  │      ├─Keyboard
+│  │      ├─Knives
+│  │      ├─Lamp_Shade
+│  │      ├─Laptop
+│  │      ├─Marker
+│  │      ├─Monitor
+│  │      ├─Mop
+│  │      ├─Mouse
+│  │      ├─Mug
+│  │      ├─Notebook
+│  │      ├─Oven
+│  │      ├─Pan
+│  │      ├─Paper_Clip
+│  │      ├─Pen
+│  │      ├─Pencil
+│  │      ├─Postit_Notes
+│  │      ├─Printer
+│  │      ├─Push_Pin
+│  │      ├─Radio
+│  │      ├─Refrigerator
+│  │      ├─Ruler
+│  │      ├─Scissors
+│  │      ├─Screwdriver
+│  │      ├─Shelf
+│  │      ├─Sink
+│  │      ├─Sneakers
+│  │      ├─Soda
+│  │      ├─Speaker
+│  │      ├─Spoon
+│  │      ├─Table
+│  │      ├─Telephone
+│  │      ├─ToothBrush
+│  │      ├─Toys
+│  │      ├─Trash_Can
+│  │      ├─TV
+│  │      └─Webcam
+│  ├─office_caltech_10
+│  │  ├─amazon
+│  │  │  ├─back_pack
+│  │  │  ├─bike
+│  │  │  ├─calculator
+│  │  │  ├─headphones
+│  │  │  ├─keyboard
+│  │  │  ├─laptop_computer
+│  │  │  ├─monitor
+│  │  │  ├─mouse
+│  │  │  ├─mug
+│  │  │  └─projector
+│  │  ├─caltech
+│  │  │  ├─backpack
+│  │  │  ├─bike
+│  │  │  ├─calculator
+│  │  │  ├─headphones
+│  │  │  ├─keyboard
+│  │  │  ├─laptop_computer
+│  │  │  ├─monitor
+│  │  │  ├─mouse
+│  │  │  ├─mug
+│  │  │  └─projector
+│  │  ├─dslr
+│  │  │  ├─back_pack
+│  │  │  ├─bike
+│  │  │  ├─calculator
+│  │  │  ├─headphones
+│  │  │  ├─keyboard
+│  │  │  ├─laptop_computer
+│  │  │  ├─monitor
+│  │  │  ├─mouse
+│  │  │  ├─mug
+│  │  │  └─projector
+│  │  └─webcam
+│  │      ├─back_pack
+│  │      ├─bike
+│  │      ├─calculator
+│  │      ├─headphones
+│  │      ├─keyboard
+│  │      ├─laptop_computer
+│  │      ├─monitor
+│  │      ├─mouse
+│  │      ├─mug
+│  │      └─projector
+│  ├─PIE
+│  │  └─PIE
+│  │      ├─PIE
+│  │      │  ├─s1
+│  │      │  ├─s10
+│  │      │  ├─s11
+│  │      │  ├─s12
+│  │      │  ├─s13
+│  │      │  ├─s14
+│  │      │  ├─s15
+│  │      │  ├─s16
+│  │      │  ├─s17
+│  │      │  ├─s18
+│  │      │  ├─s19
+│  │      │  ├─s2
+│  │      │  ├─s20
+│  │      │  ├─s21
+│  │      │  ├─s22
+│  │      │  ├─s23
+│  │      │  ├─s24
+│  │      │  ├─s25
+│  │      │  ├─s26
+│  │      │  ├─s27
+│  │      │  ├─s28
+│  │      │  ├─s29
+│  │      │  ├─s3
+│  │      │  ├─s30
+│  │      │  ├─s31
+│  │      │  ├─s32
+│  │      │  ├─s33
+│  │      │  ├─s34
+│  │      │  ├─s35
+│  │      │  ├─s36
+│  │      │  ├─s37
+│  │      │  ├─s38
+│  │      │  ├─s39
+│  │      │  ├─s4
+│  │      │  ├─s40
+│  │      │  ├─s41
+│  │      │  ├─s42
+│  │      │  ├─s43
+│  │      │  ├─s44
+│  │      │  ├─s45
+│  │      │  ├─s46
+│  │      │  ├─s47
+│  │      │  ├─s48
+│  │      │  ├─s49
+│  │      │  ├─s5
+│  │      │  ├─s50
+│  │      │  ├─s51
+│  │      │  ├─s52
+│  │      │  ├─s53
+│  │      │  ├─s54
+│  │      │  ├─s55
+│  │      │  ├─s56
+│  │      │  ├─s57
+│  │      │  ├─s58
+│  │      │  ├─s59
+│  │      │  ├─s6
+│  │      │  ├─s60
+│  │      │  ├─s61
+│  │      │  ├─s62
+│  │      │  ├─s63
+│  │      │  ├─s64
+│  │      │  ├─s65
+│  │      │  ├─s66
+│  │      │  ├─s67
+│  │      │  ├─s68
+│  │      │  ├─s7
+│  │      │  ├─s8
+│  │      │  └─s9
+│  │      ├─PIE_32x32_files
+│  │      ├─Pose05_64x64_files
+│  │      ├─Pose07_64x64_files
+│  │      ├─Pose09_64x64_files
+│  │      ├─Pose27_64x64_files
+│  │      └─Pose29_64x64_files
+│  ├─sun09
+│  │  ├─dataset
+│  │  ├─Images
+│  │  │  ├─out_of_context
+│  │  │  └─static_sun09_database
+│  │  └─models
+│  ├─visda
+│  │  ├─train
+│  │  │  ├─aeroplane
+│  │  │  ├─bicycle
+│  │  │  ├─bus
+│  │  │  ├─car
+│  │  │  ├─horse
+│  │  │  ├─knife
+│  │  │  ├─motorcycle
+│  │  │  ├─person
+│  │  │  ├─plant
+│  │  │  ├─skateboard
+│  │  │  ├─train
+│  │  │  └─truck
+│  │  └─validation
+│  │      ├─aeroplane
+│  │      ├─bicycle
+│  │      ├─bus
+│  │      ├─car
+│  │      ├─horse
+│  │      ├─knife
+│  │      ├─motorcycle
+│  │      ├─person
+│  │      ├─plant
+│  │      ├─skateboard
+│  │      ├─train
+│  │      └─truck
+│  └─vlsc
+│      ├─Caltech
+│      │  ├─056.dog
+│      │  ├─113.hummingbird
+│      │  ├─114.ibis-101
+│      │  ├─159.people
+│      │  ├─car_side
+│      │  └─chair
+│      ├─LabelMe
+│      │  ├─bird
+│      │  │  ├─Annotations
+│      │  │  │  ├─static_barcelona_street_city_outdoor_2_2005
+│      │  │  │  ├─static_outdoor_street_city_gerona_spain
+│      │  │  │  ├─static_outdoor_urban_city_street_coruna_spain
+│      │  │  │  └─static_palma_outdoor_august_2005_set4
+│      │  │  └─images
+│      │  │      ├─static_barcelona_street_city_outdoor_2_2005
+│      │  │      ├─static_outdoor_street_city_gerona_spain
+│      │  │      ├─static_outdoor_urban_city_street_coruna_spain
+│      │  │      └─static_palma_outdoor_august_2005_set4
+│      │  ├─car
+│      │  │  ├─Annotations
+│      │  │  │  ├─barcelona_static_street
+│      │  │  │  ├─madrid_static_street
+│      │  │  │  ├─static_barcelona_street_city_outdoor_2005
+│      │  │  │  ├─static_barcelona_street_city_outdoor_2_2005
+│      │  │  │  ├─static_coast_palafrugel_outdoor_spain
+│      │  │  │  ├─static_madrid_outdoor_august_2005
+│      │  │  │  ├─static_outdoor_city_laredo_spain
+│      │  │  │  ├─static_outdoor_mallorca_spain
+│      │  │  │  ├─static_outdoor_road_mallorca_spain
+│      │  │  │  ├─static_outdoor_road_spain
+│      │  │  │  ├─static_outdoor_street_city_barcelona_spain_night
+│      │  │  │  ├─static_outdoor_street_city_gerona_spain
+│      │  │  │  ├─static_outdoor_street_city_madrid_spain
+│      │  │  │  ├─static_outdoor_street_village_benavente_leon_spain
+│      │  │  │  ├─static_outdoor_street_village_galicia_spain
+│      │  │  │  ├─static_outdoor_street_village_palafrugel_spain
+│      │  │  │  ├─static_outdoor_street_village_puigpunyent_mallorca_spain
+│      │  │  │  ├─static_outdoor_urban_city_street_astorga_leon_spain
+│      │  │  │  ├─static_outdoor_urban_city_street_coruna_spain
+│      │  │  │  ├─static_palma_outdoor_2004
+│      │  │  │  ├─static_palma_outdoor_august_2005
+│      │  │  │  ├─static_palma_outdoor_august_2005_set2
+│      │  │  │  ├─static_palma_outdoor_august_2005_set3
+│      │  │  │  ├─static_palma_outdoor_august_2005_set4
+│      │  │  │  ├─static_palma_outdoor_august_2005_set5
+│      │  │  │  ├─static_street_outdoor_palma_mallorca_spain
+│      │  │  │  ├─static_street_outdoor_palma_mallorca_spain_2007
+│      │  │  │  ├─static_village_mallorca_outdoor
+│      │  │  │  ├─static_village_outdoor_2005
+│      │  │  │  └─valladolid_static_street
+│      │  │  └─images
+│      │  │      ├─barcelona_static_street
+│      │  │      ├─madrid_static_street
+│      │  │      ├─static_barcelona_street_city_outdoor_2005
+│      │  │      ├─static_barcelona_street_city_outdoor_2_2005
+│      │  │      ├─static_coast_palafrugel_outdoor_spain
+│      │  │      ├─static_madrid_outdoor_august_2005
+│      │  │      ├─static_outdoor_city_laredo_spain
+│      │  │      ├─static_outdoor_mallorca_spain
+│      │  │      ├─static_outdoor_road_mallorca_spain
+│      │  │      ├─static_outdoor_road_spain
+│      │  │      ├─static_outdoor_street_city_barcelona_spain_night
+│      │  │      ├─static_outdoor_street_city_gerona_spain
+│      │  │      ├─static_outdoor_street_city_madrid_spain
+│      │  │      ├─static_outdoor_street_village_benavente_leon_spain
+│      │  │      ├─static_outdoor_street_village_galicia_spain
+│      │  │      ├─static_outdoor_street_village_palafrugel_spain
+│      │  │      ├─static_outdoor_street_village_puigpunyent_mallorca_spain
+│      │  │      ├─static_outdoor_urban_city_street_astorga_leon_spain
+│      │  │      ├─static_outdoor_urban_city_street_coruna_spain
+│      │  │      ├─static_palma_outdoor_2004
+│      │  │      ├─static_palma_outdoor_august_2005
+│      │  │      ├─static_palma_outdoor_august_2005_set2
+│      │  │      ├─static_palma_outdoor_august_2005_set3
+│      │  │      ├─static_palma_outdoor_august_2005_set4
+│      │  │      ├─static_palma_outdoor_august_2005_set5
+│      │  │      ├─static_street_outdoor_palma_mallorca_spain
+│      │  │      ├─static_street_outdoor_palma_mallorca_spain_2007
+│      │  │      ├─static_village_mallorca_outdoor
+│      │  │      ├─static_village_outdoor_2005
+│      │  │      └─valladolid_static_street
+│      │  ├─chair
+│      │  │  ├─Annotations
+│      │  │  │  ├─barcelona_static_street
+│      │  │  │  ├─static_barcelona_street_city_outdoor_2005
+│      │  │  │  ├─static_barcelona_street_city_outdoor_2_2005
+│      │  │  │  ├─static_coast_palafrugel_outdoor_spain
+│      │  │  │  ├─static_outdoor_mallorca_spain
+│      │  │  │  ├─static_outdoor_street_city_barcelona_spain_night
+│      │  │  │  ├─static_outdoor_street_village_puigpunyent_mallorca_spain
+│      │  │  │  ├─static_outdoor_urban_city_street_coruna_spain
+│      │  │  │  ├─static_palma_outdoor_august_2005_set2
+│      │  │  │  ├─static_palma_outdoor_august_2005_set3
+│      │  │  │  ├─static_palma_outdoor_august_2005_set4
+│      │  │  │  ├─static_palma_outdoor_august_2005_set5
+│      │  │  │  ├─static_street_outdoor_palma_mallorca_spain
+│      │  │  │  ├─static_village_mallorca_outdoor
+│      │  │  │  ├─static_village_outdoor_2005
+│      │  │  │  └─valladolid_static_street
+│      │  │  └─images
+│      │  │      ├─barcelona_static_street
+│      │  │      ├─static_barcelona_street_city_outdoor_2005
+│      │  │      ├─static_barcelona_street_city_outdoor_2_2005
+│      │  │      ├─static_coast_palafrugel_outdoor_spain
+│      │  │      ├─static_outdoor_mallorca_spain
+│      │  │      ├─static_outdoor_street_city_barcelona_spain_night
+│      │  │      ├─static_outdoor_street_village_puigpunyent_mallorca_spain
+│      │  │      ├─static_outdoor_urban_city_street_coruna_spain
+│      │  │      ├─static_palma_outdoor_august_2005_set2
+│      │  │      ├─static_palma_outdoor_august_2005_set3
+│      │  │      ├─static_palma_outdoor_august_2005_set4
+│      │  │      ├─static_palma_outdoor_august_2005_set5
+│      │  │      ├─static_street_outdoor_palma_mallorca_spain
+│      │  │      ├─static_village_mallorca_outdoor
+│      │  │      ├─static_village_outdoor_2005
+│      │  │      └─valladolid_static_street
+│      │  ├─dog
+│      │  │  ├─Annotations
+│      │  │  │  ├─barcelona_static_street
+│      │  │  │  ├─static_barcelona_street_city_outdoor_2005
+│      │  │  │  ├─static_barcelona_street_city_outdoor_2_2005
+│      │  │  │  ├─static_madrid_outdoor_august_2005
+│      │  │  │  ├─static_outdoor_mallorca_spain
+│      │  │  │  ├─static_outdoor_road_mallorca_spain
+│      │  │  │  ├─static_outdoor_street_city_barcelona_spain_night
+│      │  │  │  ├─static_outdoor_street_city_madrid_spain
+│      │  │  │  ├─static_outdoor_street_village_galicia_spain
+│      │  │  │  ├─static_outdoor_street_village_puigpunyent_mallorca_spain
+│      │  │  │  ├─static_outdoor_urban_city_street_coruna_spain
+│      │  │  │  ├─static_palma_outdoor_2004
+│      │  │  │  ├─static_palma_outdoor_august_2005_set2
+│      │  │  │  ├─static_palma_outdoor_august_2005_set3
+│      │  │  │  ├─static_street_outdoor_palma_mallorca_spain
+│      │  │  │  ├─static_village_outdoor_2005
+│      │  │  │  └─valladolid_static_street
+│      │  │  └─images
+│      │  │      ├─barcelona_static_street
+│      │  │      ├─static_barcelona_street_city_outdoor_2005
+│      │  │      ├─static_barcelona_street_city_outdoor_2_2005
+│      │  │      ├─static_madrid_outdoor_august_2005
+│      │  │      ├─static_outdoor_mallorca_spain
+│      │  │      ├─static_outdoor_road_mallorca_spain
+│      │  │      ├─static_outdoor_street_city_barcelona_spain_night
+│      │  │      ├─static_outdoor_street_city_madrid_spain
+│      │  │      ├─static_outdoor_street_village_galicia_spain
+│      │  │      ├─static_outdoor_street_village_puigpunyent_mallorca_spain
+│      │  │      ├─static_outdoor_urban_city_street_coruna_spain
+│      │  │      ├─static_palma_outdoor_2004
+│      │  │      ├─static_palma_outdoor_august_2005_set2
+│      │  │      ├─static_palma_outdoor_august_2005_set3
+│      │  │      ├─static_street_outdoor_palma_mallorca_spain
+│      │  │      ├─static_village_outdoor_2005
+│      │  │      └─valladolid_static_street
+│      │  └─person
+│      │      ├─Annotations
+│      │      │  ├─barcelona_static_street
+│      │      │  ├─madrid_static_street
+│      │      │  ├─static_barcelona_street_city_outdoor_2005
+│      │      │  ├─static_barcelona_street_city_outdoor_2_2005
+│      │      │  ├─static_coast_palafrugel_outdoor_spain
+│      │      │  ├─static_formentera_outdoor_landscape_coast
+│      │      │  ├─static_madrid_outdoor_august_2005
+│      │      │  ├─static_outdoor_city_laredo_spain
+│      │      │  ├─static_outdoor_mallorca_spain
+│      │      │  ├─static_outdoor_road_mallorca_spain
+│      │      │  ├─static_outdoor_road_spain
+│      │      │  ├─static_outdoor_street_city_barcelona_spain_2007
+│      │      │  ├─static_outdoor_street_city_barcelona_spain_night
+│      │      │  ├─static_outdoor_street_city_gerona_spain
+│      │      │  ├─static_outdoor_street_city_madrid_spain
+│      │      │  ├─static_outdoor_street_village_palafrugel_spain
+│      │      │  ├─static_outdoor_street_village_puigpunyent_mallorca_spain
+│      │      │  ├─static_outdoor_urban_city_street_astorga_leon_spain
+│      │      │  ├─static_outdoor_urban_city_street_coruna_spain
+│      │      │  ├─static_palma_outdoor_2004
+│      │      │  ├─static_palma_outdoor_august_2005
+│      │      │  ├─static_palma_outdoor_august_2005_set2
+│      │      │  ├─static_palma_outdoor_august_2005_set3
+│      │      │  ├─static_palma_outdoor_august_2005_set4
+│      │      │  ├─static_palma_outdoor_august_2005_set5
+│      │      │  ├─static_street_outdoor_palma_mallorca_spain
+│      │      │  ├─static_street_outdoor_palma_mallorca_spain_2007
+│      │      │  ├─static_village_mallorca_outdoor
+│      │      │  ├─static_village_outdoor_2005
+│      │      │  └─valladolid_static_street
+│      │      └─images
+│      │          ├─barcelona_static_street
+│      │          ├─madrid_static_street
+│      │          ├─static_barcelona_street_city_outdoor_2005
+│      │          ├─static_barcelona_street_city_outdoor_2_2005
+│      │          ├─static_coast_palafrugel_outdoor_spain
+│      │          ├─static_formentera_outdoor_landscape_coast
+│      │          ├─static_madrid_outdoor_august_2005
+│      │          ├─static_outdoor_city_laredo_spain
+│      │          ├─static_outdoor_mallorca_spain
+│      │          ├─static_outdoor_road_mallorca_spain
+│      │          ├─static_outdoor_road_spain
+│      │          ├─static_outdoor_street_city_barcelona_spain_2007
+│      │          ├─static_outdoor_street_city_barcelona_spain_night
+│      │          ├─static_outdoor_street_city_gerona_spain
+│      │          ├─static_outdoor_street_city_madrid_spain
+│      │          ├─static_outdoor_street_village_palafrugel_spain
+│      │          ├─static_outdoor_street_village_puigpunyent_mallorca_spain
+│      │          ├─static_outdoor_urban_city_street_astorga_leon_spain
+│      │          ├─static_outdoor_urban_city_street_coruna_spain
+│      │          ├─static_palma_outdoor_2004
+│      │          ├─static_palma_outdoor_august_2005
+│      │          ├─static_palma_outdoor_august_2005_set2
+│      │          ├─static_palma_outdoor_august_2005_set3
+│      │          ├─static_palma_outdoor_august_2005_set4
+│      │          ├─static_palma_outdoor_august_2005_set5
+│      │          ├─static_street_outdoor_palma_mallorca_spain
+│      │          ├─static_street_outdoor_palma_mallorca_spain_2007
+│      │          ├─static_village_mallorca_outdoor
+│      │          ├─static_village_outdoor_2005
+│      │          └─valladolid_static_street
+│      ├─sun09
+│      │  ├─bird
+│      │  ├─car
+│      │  ├─chair
+│      │  ├─dog
+│      │  └─person
+│      └─VOCdevkit
+│          └─VOC2007
+│              ├─Annotations
+│              ├─ImageSets
+│              │  ├─Layout
+│              │  ├─Main
+│              │  └─Segmentation
+│              ├─JPEGImages
+│              ├─SegmentationClass
+│              └─SegmentationObject
+├─imageCLEF_resnet50
+├─intel-image-classification
+│  ├─cleaned
+│  │  ├─train
+│  │  │  ├─buildings
+│  │  │  ├─forest
+│  │  │  ├─glacier
+│  │  │  ├─mountain
+│  │  │  ├─sea
+│  │  │  └─street
+│  │  └─val
+│  │      ├─buildings
+│  │      ├─forest
+│  │      ├─glacier
+│  │      ├─mountain
+│  │      ├─sea
+│  │      └─street
+│  ├─seg_pred
+│  │  └─seg_pred
+│  ├─seg_test
+│  │  └─seg_test
+│  │      ├─buildings
+│  │      ├─forest
+│  │      ├─glacier
+│  │      ├─mountain
+│  │      ├─sea
+│  │      └─street
+│  └─seg_train
+│      └─seg_train
+│          ├─buildings
+│          ├─forest
+│          ├─glacier
+│          ├─mountain
+│          ├─sea
+│          └─street
+├─mnist+usps
+├─Office-Home_resnet50
+├─office31_decaf
+├─office31_decaf_raw
+├─office31_raw_image
+│  └─Original_images
+│      ├─amazon
+│      │  └─images
+│      │      ├─back_pack
+│      │      ├─bike
+│      │      ├─bike_helmet
+│      │      ├─bookcase
+│      │      ├─bottle
+│      │      ├─calculator
+│      │      ├─desktop_computer
+│      │      ├─desk_chair
+│      │      ├─desk_lamp
+│      │      ├─file_cabinet
+│      │      ├─headphones
+│      │      ├─keyboard
+│      │      ├─laptop_computer
+│      │      ├─letter_tray
+│      │      ├─mobile_phone
+│      │      ├─monitor
+│      │      ├─mouse
+│      │      ├─mug
+│      │      ├─paper_notebook
+│      │      ├─pen
+│      │      ├─phone
+│      │      ├─printer
+│      │      ├─projector
+│      │      ├─punchers
+│      │      ├─ring_binder
+│      │      ├─ruler
+│      │      ├─scissors
+│      │      ├─speaker
+│      │      ├─stapler
+│      │      ├─tape_dispenser
+│      │      └─trash_can
+│      ├─dslr
+│      │  └─images
+│      │      ├─back_pack
+│      │      ├─bike
+│      │      ├─bike_helmet
+│      │      ├─bookcase
+│      │      ├─bottle
+│      │      ├─calculator
+│      │      ├─desktop_computer
+│      │      ├─desk_chair
+│      │      ├─desk_lamp
+│      │      ├─file_cabinet
+│      │      ├─headphones
+│      │      ├─keyboard
+│      │      ├─laptop_computer
+│      │      ├─letter_tray
+│      │      ├─mobile_phone
+│      │      ├─monitor
+│      │      ├─mouse
+│      │      ├─mug
+│      │      ├─paper_notebook
+│      │      ├─pen
+│      │      ├─phone
+│      │      ├─printer
+│      │      ├─projector
+│      │      ├─punchers
+│      │      ├─ring_binder
+│      │      ├─ruler
+│      │      ├─scissors
+│      │      ├─speaker
+│      │      ├─stapler
+│      │      ├─tape_dispenser
+│      │      └─trash_can
+│      └─webcam
+│          └─images
+│              ├─back_pack
+│              ├─bike
+│              ├─bike_helmet
+│              ├─bookcase
+│              ├─bottle
+│              ├─calculator
+│              ├─desktop_computer
+│              ├─desk_chair
+│              ├─desk_lamp
+│              ├─file_cabinet
+│              ├─headphones
+│              ├─keyboard
+│              ├─laptop_computer
+│              ├─letter_tray
+│              ├─mobile_phone
+│              ├─monitor
+│              ├─mouse
+│              ├─mug
+│              ├─paper_notebook
+│              ├─pen
+│              ├─phone
+│              ├─printer
+│              ├─projector
+│              ├─punchers
+│              ├─ring_binder
+│              ├─ruler
+│              ├─scissors
+│              ├─speaker
+│              ├─stapler
+│              ├─tape_dispenser
+│              └─trash_can
+├─office31_resnet50
+├─office31_surf
+├─PIE
+├─Stanford_Dogs
+│  └─Images
+│      ├─n02085620-Chihuahua
+│      ├─n02085782-Japanese_spaniel
+│      ├─n02085936-Maltese_dog
+│      ├─n02086079-Pekinese
+│      ├─n02086240-Shih-Tzu
+│      ├─n02086646-Blenheim_spaniel
+│      ├─n02086910-papillon
+│      ├─n02087046-toy_terrier
+│      ├─n02087394-Rhodesian_ridgeback
+│      ├─n02088094-Afghan_hound
+│      ├─n02088238-basset
+│      ├─n02088364-beagle
+│      ├─n02088466-bloodhound
+│      ├─n02088632-bluetick
+│      ├─n02089078-black-and-tan_coonhound
+│      ├─n02089867-Walker_hound
+│      ├─n02089973-English_foxhound
+│      ├─n02090379-redbone
+│      ├─n02090622-borzoi
+│      ├─n02090721-Irish_wolfhound
+│      ├─n02091032-Italian_greyhound
+│      ├─n02091134-whippet
+│      ├─n02091244-Ibizan_hound
+│      ├─n02091467-Norwegian_elkhound
+│      ├─n02091635-otterhound
+│      ├─n02091831-Saluki
+│      ├─n02092002-Scottish_deerhound
+│      ├─n02092339-Weimaraner
+│      ├─n02093256-Staffordshire_bullterrier
+│      ├─n02093428-American_Staffordshire_terrier
+│      ├─n02093647-Bedlington_terrier
+│      ├─n02093754-Border_terrier
+│      ├─n02093859-Kerry_blue_terrier
+│      ├─n02093991-Irish_terrier
+│      ├─n02094114-Norfolk_terrier
+│      ├─n02094258-Norwich_terrier
+│      ├─n02094433-Yorkshire_terrier
+│      ├─n02095314-wire-haired_fox_terrier
+│      ├─n02095570-Lakeland_terrier
+│      ├─n02095889-Sealyham_terrier
+│      ├─n02096051-Airedale
+│      ├─n02096177-cairn
+│      ├─n02096294-Australian_terrier
+│      ├─n02096437-Dandie_Dinmont
+│      ├─n02096585-Boston_bull
+│      ├─n02097047-miniature_schnauzer
+│      ├─n02097130-giant_schnauzer
+│      ├─n02097209-standard_schnauzer
+│      ├─n02097298-Scotch_terrier
+│      ├─n02097474-Tibetan_terrier
+│      ├─n02097658-silky_terrier
+│      ├─n02098105-soft-coated_wheaten_terrier
+│      ├─n02098286-West_Highland_white_terrier
+│      ├─n02098413-Lhasa
+│      ├─n02099267-flat-coated_retriever
+│      ├─n02099429-curly-coated_retriever
+│      ├─n02099601-golden_retriever
+│      ├─n02099712-Labrador_retriever
+│      ├─n02099849-Chesapeake_Bay_retriever
+│      ├─n02100236-German_short-haired_pointer
+│      ├─n02100583-vizsla
+│      ├─n02100735-English_setter
+│      ├─n02100877-Irish_setter
+│      ├─n02101006-Gordon_setter
+│      ├─n02101388-Brittany_spaniel
+│      ├─n02101556-clumber
+│      ├─n02102040-English_springer
+│      ├─n02102177-Welsh_springer_spaniel
+│      ├─n02102318-cocker_spaniel
+│      ├─n02102480-Sussex_spaniel
+│      ├─n02102973-Irish_water_spaniel
+│      ├─n02104029-kuvasz
+│      ├─n02104365-schipperke
+│      ├─n02105056-groenendael
+│      ├─n02105162-malinois
+│      ├─n02105251-briard
+│      ├─n02105412-kelpie
+│      ├─n02105505-komondor
+│      ├─n02105641-Old_English_sheepdog
+│      ├─n02105855-Shetland_sheepdog
+│      ├─n02106030-collie
+│      ├─n02106166-Border_collie
+│      ├─n02106382-Bouvier_des_Flandres
+│      ├─n02106550-Rottweiler
+│      ├─n02106662-German_shepherd
+│      ├─n02107142-Doberman
+│      ├─n02107312-miniature_pinscher
+│      ├─n02107574-Greater_Swiss_Mountain_dog
+│      ├─n02107683-Bernese_mountain_dog
+│      ├─n02107908-Appenzeller
+│      ├─n02108000-EntleBucher
+│      ├─n02108089-boxer
+│      ├─n02108422-bull_mastiff
+│      ├─n02108551-Tibetan_mastiff
+│      ├─n02108915-French_bulldog
+│      ├─n02109047-Great_Dane
+│      ├─n02109525-Saint_Bernard
+│      ├─n02109961-Eskimo_dog
+│      ├─n02110063-malamute
+│      ├─n02110185-Siberian_husky
+│      ├─n02110627-affenpinscher
+│      ├─n02110806-basenji
+│      ├─n02110958-pug
+│      ├─n02111129-Leonberg
+│      ├─n02111277-Newfoundland
+│      ├─n02111500-Great_Pyrenees
+│      ├─n02111889-Samoyed
+│      ├─n02112018-Pomeranian
+│      ├─n02112137-chow
+│      ├─n02112350-keeshond
+│      ├─n02112706-Brabancon_griffon
+│      ├─n02113023-Pembroke
+│      ├─n02113186-Cardigan
+│      ├─n02113624-toy_poodle
+│      ├─n02113712-miniature_poodle
+│      ├─n02113799-standard_poodle
+│      ├─n02113978-Mexican_hairless
+│      ├─n02115641-dingo
+│      ├─n02115913-dhole
+│      └─n02116738-African_hunting_dog
+├─surf
+│  └─zscore
+├─visda17
+├─VisDA_resnet50
+├─VLSC
+└─VOCdevkit
+    ├─cleaned
+    │  ├─train
+    │  │  ├─aeroplane
+    │  │  ├─bicycle
+    │  │  ├─bird
+    │  │  ├─boat
+    │  │  ├─bottle
+    │  │  ├─bus
+    │  │  ├─car
+    │  │  ├─cat
+    │  │  ├─chair
+    │  │  ├─cow
+    │  │  ├─diningtable
+    │  │  ├─dog
+    │  │  ├─horse
+    │  │  ├─motorbike
+    │  │  ├─person
+    │  │  ├─pottedplant
+    │  │  ├─sheep
+    │  │  ├─sofa
+    │  │  ├─train
+    │  │  └─tvmonitor
+    │  └─val
+    │      ├─aeroplane
+    │      ├─bicycle
+    │      ├─bird
+    │      ├─boat
+    │      ├─bottle
+    │      ├─bus
+    │      ├─car
+    │      ├─cat
+    │      ├─chair
+    │      ├─cow
+    │      ├─diningtable
+    │      ├─dog
+    │      ├─horse
+    │      ├─motorbike
+    │      ├─person
+    │      ├─pottedplant
+    │      ├─sheep
+    │      ├─sofa
+    │      ├─train
+    │      └─tvmonitor
+    ├─labeled
+    │  └─train
+    │      └─aeroplane
+    ├─local
+    │  └─VOC2012
+    ├─results
+    │  └─VOC2012
+    │      └─Main
+    └─VOC2012
+        ├─Annotations
+        ├─ImageSets
+        │  ├─Action
+        │  ├─Layout
+        │  ├─Main
+        │  └─Segmentation
+        ├─JPEGImages
+        ├─SegmentationClass
+        └─SegmentationObject
