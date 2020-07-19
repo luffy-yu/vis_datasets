@@ -2,7 +2,7 @@
 
 Visualize Transfer Learning Datasets
 
-## result
+## Result
 
 ![result.jpg](result.jpg)
 
@@ -29,3 +29,9 @@ Visualize Transfer Learning Datasets
 ## Dataset organization
 
 see `folder_tree.txt` 
+
+## Dataset download
+
+For convenience, I upload all dataset in tar.gz format into Baidu Netdisk.
+
+<https://pan.baidu.com/s/1RkevNoLAJ5pRkeDi0qMr_A>KEY: kamt
